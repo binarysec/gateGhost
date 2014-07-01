@@ -15,4 +15,6 @@ id#activated#category#name#type#rule
 101T2#true#tracker#Taxonomy#nreguri#*/services/json/taxonomy/flat.jsonp?*
 120T2#true#tracker#Live Intercept#nreghost#*engine.liveintercept.com
 121T2#true#tracker#Live Intercept#nreghost#*static.liveintercept.com
+130T2#true#ad#Teads#nreghost#cdn.teads.tv
+131T2#true#ad#Teads#nreguri#t.teads.tv/track
 
