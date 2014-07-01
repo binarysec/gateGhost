@@ -182,7 +182,6 @@ db.loader = function(gjs) {
 	db.nregCookie.reload();
 	
 	db.loaded = true;
-	console.log(db.categories, db.stats);
 }
 
 module.exports = db;
