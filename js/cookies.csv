@@ -1,0 +1,34 @@
+Copyright BinarySEC under GPLv3
+id#activated#name#type#rule
+
+1T1#true#Google cookies#nreg#__utma
+2T1#true#Google cookies#nreg#__utmb
+3T1#true#Google cookies#nreg#__utmc
+4T1#true#Google cookies#nreg#__utmd
+5T1#true#Google cookies#nreg#__utme
+6T1#true#Google cookies#nreg#__utmf
+7T1#true#Google cookies#nreg#__utmg
+8T1#true#Google cookies#nreg#__utmh
+9T1#true#Google cookies#nreg#__utmi
+10T1#true#Google cookies#nreg#__utmj
+11T1#true#Google cookies#nreg#__utmk
+12T1#true#Google cookies#nreg#__utml
+13T1#true#Google cookies#nreg#__utmm
+14T1#true#Google cookies#nreg#__utmn
+15T1#true#Google cookies#nreg#__utmo
+16T1#true#Google cookies#nreg#__utmp
+17T1#true#Google cookies#nreg#__utmq
+18T1#true#Google cookies#nreg#__utmr
+19T1#true#Google cookies#nreg#__utms
+20T1#true#Google cookies#nreg#__utmt
+21T1#true#Google cookies#nreg#__utmu
+22T1#true#Google cookies#nreg#__utmv
+23T1#true#Google cookies#nreg#__utmw
+24T1#true#Google cookies#nreg#__utmx
+25T1#true#Google cookies#nreg#__utmy
+26T1#true#Google cookies#nreg#__utmz
+27T1#true#Chartbeat#nreg#__chartbeat*
+28T1#true#Kameleoon#nreg#kameleoonExperiment*
+29T1#true#Cloudfront#nreg#__cfduid
+30T1#true#Cloudfront#nreg#cfapp_caddi
+31T1#true#Wikipedia#nreg#GeoIP

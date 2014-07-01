@@ -1,0 +1,15 @@
+Copyright BinarySEC under GPLv3
+id#activated#category#name#type#rule
+
+1T2#true#tracker#Yandex#nreghost#mc.yandex.ru
+2T2#true#tracker#Cedexis#nreghost#reports.cedexis.com
+3T2#true#tracker#Cedexis#nreghost#probes.cedexis.com
+4T2#true#tracker#Cedexis#nreghost#*bench.cedexis.com
+5T2#true#tracker#Cedexis#nreghost#cedexis.gccdn.net
+6T2#true#tracker#Cedexis#nreghost#*cedexis-radar.net
+7T2#true#tracker#Cedexis#nreghost#radar.cedexis.com
+8T2#true#tracker#Chartbeat#nreghost#ping.chartbeat.net
+9T2#true#tracker#Chartbeat#nreghost#static.chartbeat.*
+10T2#true#tracker#Kameleoon#nreghost#static.kameleoon.com
+
+100T2#true#tracker#TTL India#sync.ttlbd.net

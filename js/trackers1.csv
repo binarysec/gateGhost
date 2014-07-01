@@ -1,0 +1,1864 @@
+Copyright BinarySEC under GPLv3
+id#activated#category#name#type#rule
+
+1#true#ad#ScribeFire QuickAds#nreguri#*static.scribefire.com/ads.js*
+2#true#analytics#Clicky#regexhost#(in\.getclicky\.com|static\.getclicky\.com|hello\.staticstuff\.net|clicky\.js)
+3#true#analytics#Statisfy#nreguri#*statisfy.net/javascripts/stats.js*
+4#true#widget#Google Widgets#nreghost#*gmodules.com
+5#true#widget#Twitter Badge#regexuri#twitter\.com\/javascripts\/[0-9a-z]+\.js
+6#true#widget#Twitter Badge#nreguri#*widgets.twimg.com/j/*
+7#true#widget#Twitter Badge#regexuri#twitter\.com\/(statuses\/user_timeline\/|1\/statuses\/user_timeline\.json|1\/users\/show\.json|1\/statuses\/followers\.json|1\/urls\/count\.json)
+8#true#analytics#Microsoft Analytics#nreghost#*analytics.live.com
+9#true#analytics#Google Analytics#regexuri#google-analytics\.com\/(analytics\.js|urchin\.js|ga_exp\.js|ga\.js|u\/ga_debug\.js|u\/ga_beta\.js|u\/ga\.js)
+10#true#analytics#Google Analytics#nreguri#*/__utm.*
+11#true#analytics#Google Analytics#nreguri#*stats.g.doubleclick.net/dc.js*
+12#true#analytics#MyBlogLog#nreghost#*.mybloglog.com
+13#true#ad#Quantcast#regexuri#(widget\.quantcast\.com|\.quantserve\.com\/|\/quant\.js)
+14#true#analytics#SiteMeter#regexuri#sitemeter\.com\/(js\/counter\.js|meter\.asp)
+15#true#ad#Lijit#nreghost#*.lijit.com
+16#true#tracker#Omniture (Adobe Analytics)#nreghost#*touchclarity
+17#true#tracker#Omniture (Adobe Analytics)#regexhost#\.1[12]2\.2o7\.net
+18#true#tracker#Omniture (Adobe Analytics)#nreghost#*hitbox.com
+19#true#tracker#Omniture (Adobe Analytics)#nreghost#*.omtrdc.net
+20#true#tracker#Omniture (Adobe Analytics)#regexuri#\/(omniture|mbox|hbx|omniunih)(.*)?\.js
+21#true#tracker#Omniture (Adobe Analytics)#regexhost#s(c)?_code[0-9a-zA-Z_-]*(\.[0-9a-zA-Z_-]*)?\.js
+22#true#tracker#Omniture (Adobe Analytics)#nreguri#*common.onset.freedom.com/fi/analytics/cms/*
+23#true#tracker#Omniture (Adobe Analytics)#nreghost#*gwa.reedbusiness.net
+24#true#tracker#Omniture (Adobe Analytics)#nreghost#*du8783wkf05yr.cloudfront.net
+25#true#analytics#Crazy Egg#nreghost#*cetrk.com
+26#true#analytics#Crazy Egg#nreghost#*dnn506yrbagrg.cloudfront.net
+27#true#widget#Snap#regexuri#(shots\.snap\.com\/snap_shots\.js|spa\.snap\.com\/snap_preview_anywhere\.js)
+28#true#analytics#Statcounter#nreghost#*.statcounter.com
+29#true#analytics#Mint#regexuri#\/(mint|_mint|mymint)\/
+30#true#analytics#Wordpress Stats#nreghost#*stats.wordpress.com
+31#true#analytics#HubSpot#regexuri#(\/salog\.js\.aspx|\.hubspot\.com|\.hubapi\.com)
+32#true#analytics#Yahoo Analytics#regexuri#(\.analytics\.yahoo\.com\/|indextools\.js|ystat\.js|\.yimg\.com\/mi\/ywa\.js)
+33#true#analytics#Yahoo Analytics#nreguri#*/js_source/whv2_001.js*
+34#true#analytics#Yahoo Analytics#nreghost#*visit.webhosting.yahoo.com
+35#true#analytics#OrangeSoda#nreguri#*otracking.com/js*
+36#true#ad#Nugg.Ad#nreghost#*.nuggad.net
+37#true#ad#Federated Media#nreghost#*.fmpub.net
+38#true#ad#OpenX#regexhost#\.openx\.(org|net)
+39#true#ad#OpenX#regexuri#\/(adg|adx|fl)\.js
+40#true#ad#OpenX#regexuri#\/(afr|ajs|avw|spcjs|lg|ag)\.php
+41#true#ad#OpenX#nreghost#*.openxenterprise.com
+42#true#ad#Amazon Associates#regexhost#\.assoc-amazon\.(com|ca|co\.uk|de|fr|jp)
+43#true#ad#Amazon Associates#nreguri#*rcm-ca.amazon.ca/e/cm*
+44#true#ad#Amazon Associates#nreguri#*rcm-uk.amazon.co.uk/e/cm*
+45#true#ad#Amazon Associates#nreguri#*rcm-de.amazon.de/e/cm*
+46#true#ad#Amazon Associates#nreguri#*rcm.amazon.com/e/cm*
+47#true#ad#Amazon Associates#nreguri#*rcm-es.amazon.es/e/cm*
+48#true#ad#Amazon Associates#nreguri#*rcm-fr.amazon.fr/e/cm*
+49#true#ad#Amazon Associates#nreguri#*rcm-it.amazon.it/e/cm*
+50#true#ad#Amazon Associates#nreguri#*rcm-jp.amazon.co.jp/e/cm*
+51#true#ad#Amazon Associates#nreghost#*.amazon-adsystem.com
+52#true#ad#FeedBurner#regexuri#(\.feedburner\.com\/~f|feedproxy\.google\.com\/~fc\/)
+53#true#analytics#ClustrMaps#regexuri#clustrmaps\.com\/(counter\/|stats\/maps)
+54#true#analytics#Feedjit#regexuri#feedjit\.com\/(serve|map)\/
+55#true#analytics#Feedjit#nreghost#*log.feedjit.com
+56#true#ad#Google Adsense#regexuri#(\.googlesyndication\.com\/simgad\/|\.googlesyndication\.com\/pagead\/|googletagservices\.com|partner\.googleadservices\.com\/gampad\/|feedads\.g\.doubleclick\.net\/~at)
+57#true#ad#Google Adsense#nreguri#*google.com/afsonline/show_afs_ads.js*
+58#true#ad#Google Adsense#nreguri#*google.com/adsense/search/ads.js*
+59#true#ad#Google Adsense#regexuri#(\.googlesyndication\.com\/apps\/domainpark\/|\.google\.com\/adsense\/domains\/caf\.js)
+60#true#tracker#HitTail#nreguri#*.hittail.com/mlt.js*
+61#true#tracker#FriendFeed#nreguri#*friendfeed.com/embed/widget/*
+62#true#analytics#Woopra#regexuri#\/woopra(\.v(2|3|4))?\.js
+63#true#ad#DoubleClick#nreghost#*.doubleclick.net
+64#true#ad#DoubleClick#nreghost#*destinationurl.com
+65#true#analytics#Crowd Science#nreghost#*static.crowdscience.com
+66#true#analytics#NetRatings SiteCensus#nreghost#*.imrworldwide.com
+67#true#analytics#NetRatings SiteCensus#nreghost#*dz.glanceguide.com
+68#true#analytics#Piwik Analytics#nreguri#*/piwik.js*
+69#true#analytics#Typepad Stats#nreguri#*.typepad.com/t/stats*
+70#true#ad#Tacoda#regexhost#(tacoda_ams_ddc_header\.js|\.tacoda\.net)
+71#true#ad#Right Media#regexuri#(rm\.yieldmanager\.com|ad\.yieldmanager\.com|\.rmxads\.com|e\.yieldmanager\.net\/script\.js)
+72#true#ad#Right Media#nreghost#*.thewheelof.com
+73#true#ad#Right Media#regexuri#content\.yieldmanager\.com\/(rmtag3|rmi)\.js
+74#true#ad#Right Media#regexuri#(ad\.yieldmanager\.net|extern\.yahoo\.com\/b)
+75#true#ad#Right Media#nreghost#*.yldmgrimg.net
+76#true#ad#Right Media#nreghost#*iv.doubleclick.net
+77#true#tracker#Dynamic Logic#regexuri#(content\.dl-rms\.com\/|\.dlqm\.net\/|\.questionmarket\.com\/)
+78#true#tracker#WebTrends#nreghost#*trackingtags_v1.1.js
+79#true#tracker#WebTrends#regexhost#(optimize|m)\.webtrends\.com
+80#true#tracker#WebTrends#regexuri#\/webtrends(.*)?\.js
+81#true#tracker#WebTrends#nreghost#*.webtrendslive.com
+82#true#tracker#WebTrends#regexuri#\/(dcs\.gif|njs\.gif)
+83#true#analytics#AT Internet#nreghost#*.xiti.com
+84#true#analytics#AT Internet#nreguri#*/xtcore.js*
+85#true#widget#ShareThis#regexuri#(\/share-this\.php|w\.sharethis\.com|s\.sharethis\.com|seg\.sharethis\.com|l\.sharethis\.com|edge\.sharethis\.com)
+86#true#tracker#Seesmic#regexuri#(\/seesmic_topposters_v2\.js|seesmic-wp\.js)
+87#true#widget#Lockerz Share#regexuri#static\.addtoany\.com\/menu\/(feed|page)\.js
+88#true#widget#AddThis#regexuri#\/addthis_widget\.(js|php)
+89#true#widget#AddThis#nreghost#*.addthis.com
+90#true#widget#AddThis#nreghost#*l.addthiscdn.com
+91#true#tracker#Audience Science#nreghost#*.revsci.net
+92#true#tracker#Audience Science#nreghost#*wunderloop.net
+93#true#tracker#Audience Science#nreghost#*ad.targetingmarketplace.com
+94#true#tracker#Audience Science#regexuri#revsci\.(.*)\/gw\.js
+95#true#ad#PointRoll#nreghost#*.pointroll.com
+96#true#analytics#ChartBeat#regexuri#(\.chartbeat\.com|\/chartbeat\.js)
+97#true#widget#UserVoice#nreguri#*.uservoice.com/javascripts/widget*
+98#true#widget#UserVoice#nreguri#*.uservoice.com/api*
+99#true#widget#UserVoice#nreghost#*widget.uservoice.com
+100#true#ad#Rubicon#nreghost#*.rubiconproject.com
+101#true#ad#Rubicon#regexhost#(\.mobsmith\.com|\.nearbyad\.com|\.bidswitch\.net)
+102#true#analytics#ConversionRuler#nreguri#*.conversionruler.com/bin/*
+103#true#tracker#Salesforce#nreguri#*lct.salesforce.com/sfga.js*
+104#true#ad#Sphere#regexuri#\.(sphere|surphace)\.com\/widgets\/sphereit\/js
+105#true#ad#Criteo#regexhost#\.criteo\.(com|net)
+106#true#ad#InfoLinks#nreguri#*resources.infolinks.com/js/infolinks_main.js*
+107#true#ad#InfoLinks#nreguri#*resources.intextscript.com/js/main_intext.js*
+108#true#ad#MSN Ads#regexuri#(ads|ads1)\.msn\.com\/library\/dap\.js
+109#true#ad#MSN Ads#nreguri#*adsyndication.msn.com/delivery/getads.js*
+110#true#widget#Outbrain#nreghost#*widgets.outbrain.com
+111#true#widget#Google FriendConnect#nreguri#*www.google.com/friendconnect/script/friendconnect.js*
+112#true#widget#Google Custom Search Engine#nreguri#*www.google.com/coop/cse/brand*
+113#true#widget#Google AJAX Search API#nreguri#*www.google.com/uds/api/search*
+114#true#ad#Kontera ContentLink#nreguri#*kona.kontera.com/javascript/*
+115#true#ad#AdBrite#nreghost#*.adbrite.com
+116#true#ad#AdultAdWorld#nreghost#*.adultadworld.com
+117#true#ad#Gunggo#nreghost#*.gunggo.com
+118#true#ad#DoublePimp#nreghost#*doublepimp.com
+119#true#ad#SexInYourCity#nreghost#*ads.sexinyourcity.com
+120#true#ad#Clicksor#regexhost#\.(lzjl|clicksor|hatid)\.com
+121#true#ad#Clicksor#nreghost#*myroitracking.com
+122#true#analytics#HubSpot WebsiteGrader#regexuri#static\.hubspot\.com\/websiteGraderBadge\/badge\.js
+123#true#ad#Quigo AdSonar#nreghost#*.adsonar.com
+124#true#widget#BlogCatalog#nreguri#*www.blogcatalog.com/w/recent.php*
+125#true#ad#Technorati#nreghost#*.technorati.com
+126#true#analytics#Alexa Traffic Rank#nreguri#*xslt.alexa.com/site_stats/js/t/*
+127#true#ad#Tribal Fusion#regexuri#(\.tribalfusion\.com\/|tags\.expo9\.exponential\.com\/tags\/)
+128#true#widget#Disqus#regexuri#disqus\.com\/(api|forums\/|count\.js|get_num_replies|popular_threads_widget\.js|recent_comments_widget\.js|top_commenters_widget\.js|combination_widget\.js|blogger|embed)
+129#true#widget#Disqus#nreghost#*mediacdn.disqus.com
+130#true#ad#Six Apart Advertising#nreghost#*ads.sixapart.com
+131#true#ad#BlogHer Ads#nreghost#*ads.blogherads.com
+132#true#ad#Advertising.com#regexuri#o\.aolcdn\.com\/(ads\/adswrapper|os\/aol\/beacon\.min\.js)
+133#true#ad#Advertising.com#nreguri#*o.aolcdn.com/js/mg2.js*
+134#true#ad#Advertising.com#nreghost#*.advertising.com
+135#true#ad#Advertising.com#nreghost#*.atwola.com
+136#true#ad#Advertising.com#nreghost#*mads.aol.com
+137#true#ad#Advertising.com#nreghost#*.pictela.net
+138#true#ad#Advertising.com#nreghost#*.adsdk.com
+139#true#tracker#DoubleClick Spotlight#regexuri#\.doubleclick\.net\/activity;
+140#true#ad#Yahoo! Overture#nreghost#*.overture.com
+141#true#ad#Yahoo! Overture#nreghost#*.ov.yahoo.co.jp
+142#true#widget#Intense Debate#nreguri#*intensedebate.com/js/*
+143#true#widget#Facebook Connect#nreguri#*facebook.com/connect*
+144#true#widget#Facebook Connect#nreghost#*connect.facebook.net
+145#true#widget#Facebook Connect#regexuri#static\.ak\.connect\.facebook\.com\/.*\.js\.php
+146#true#widget#Facebook Connect#nreguri#*/fbconnect.js*
+147#true#tracker#BTBuckets#regexuri#(static\.btbuckets\.com\/bt\.js|\.n\.btbuckets\.com\/js)
+148#true#ad#gumgum#regexuri#(cdn|g2|gonzogrape)\.gumgum\.com\/javascripts\/ggv2\.js
+149#true#ad#YieldBuild#nreghost#*.yieldbuild.com
+150#true#analytics#Yahoo! Buzz#nreguri#*d.yimg.com/ds/badge.js*
+151#true#tracker#Baynote Observer#nreghost#*baynote.js
+152#true#tracker#Baynote Observer#nreghost#*baynote.net
+153#true#tracker#Baynote Observer#regexhost#baynote(-observer)?([0-9]+)\.js
+154#true#tracker#Baynote Observer#nreghost#*baynote-observer.js
+155#true#tracker#TriggIt#nreghost#*triggit.com
+156#true#widget#Digg Widget#nreguri#*digg.com/tools/widgetjs*
+157#true#widget#Digg Widget#nreghost#*widgets.digg.com
+158#true#ad#Zedo#nreghost#*.zedo.com
+159#true#ad#Vibrant Ads#nreghost#*.intellitxt.com
+160#true#widget#GetSatisfaction#regexuri#s3\.amazonaws\.com\/getsatisfaction\.com\/(feedback\/feedback\.js|javascripts\/feedback-v2\.js)
+161#true#ad#Adify#nreghost#*.afy11.net
+162#true#widget#LivePerson#nreghost#*.liveperson.net
+163#true#tracker#Kampyle#regexuri#\/k_(push|button)\.js
+164#true#analytics#ClickTale#nreghost#*.clicktale.net
+165#true#analytics#ClickTale#regexhost#(clicktale\.pantherssl\.com|clicktalecdn\.sslcs\.cdngc\.net)
+166#true#tracker#Lotame#nreghost#*.crwdcntrl.net
+167#true#ad#CPX Interactive#regexhost#(\.cpxinteractive\.com|\.bigfineads\.com|\.brealtime\.com|\.cpxadroit\.com)
+168#true#analytics#Lynchpin Analytics#regexuri#(lypn\.com\/exp\/|lypn\.com\/lp\/|\.lypn\.net)
+169#true#analytics#Trovus Revelations#nreguri#*revelations.trovus.co.uk/tracker/*
+170#true#analytics#InsightExpress#nreghost#*.insightexpressai.com
+171#true#ad#Kanoodle#nreghost#*.kanoodle.com
+172#true#tracker#BlueKai#regexuri#(tags\.bluekai\.com\/|bkrtx\.com\/js\/)
+173#true#tracker#Loomia#regexuri#(tr-metrics\.loomia\.com|assets\.loomia\.com\/js\/)
+174#true#ad#Others Online#regexuri#othersonline\.com\/*\/[a-z0-9]+\.js
+175#true#analytics#TwitterCounter#nreghost#*twittercounter.com
+176#true#tracker#Dotomi#regexuri#(\.dtmpub\.com\/|\.dotomi\.com)
+177#true#ad#Chitika#nreghost#*.chitika.net
+178#true#ad#Spot200#nreghost#*ad.spot200.com
+179#true#analytics#HitsLink#nreghost#*.hitslink.com
+180#true#analytics#HitsLink#nreghost#*.hitsprocessor.com
+181#true#analytics#W3Counter#nreghost#*.w3counter.com
+182#true#analytics#AWStats#nreghost#*awstats_misc_tracker.js
+183#true#analytics#OneStat#nreghost#*stat.onestat.com
+184#true#analytics#Bluemetrix#regexuri#(\.bmmetrix\.com|\.japanmetrix\.jp\/)
+185#true#analytics#Reinvigorate#nreghost#*.reinvigorate.net
+186#true#tracker#Collarity#nreghost#*service.collarity.com
+187#true#widget#AdaptiveBlue SmartLinks#nreghost#*.smrtlnks.com
+188#true#widget#Tumblr Dashboard#nreguri#*www.tumblr.com/dashboard/iframe*
+189#true#ad#Casale Media#nreghost#*.casalemedia.com
+190#true#widget#BlogCounter#nreguri#*track.blogcounter.de/*
+191#true#ad#WidgetBucks#nreguri#*api.widgetbucks.com/script/ads.js*
+192#true#ad#ValueClick Mediaplex#regexhost#(\.mediaplex\.com|\.fastclick\.net)
+193#true#widget#Echo#regexuri#(\.haloscan\.com\/load\/|js-kit\.com\/[0-9a-z\/]+\.js)
+194#true#analytics#Buzzster#nreguri#*buzzster.com/widget/*
+195#true#analytics#LeadLander#regexhost#(trackalyzer\.com|formalyzer\.com)
+196#true#ad#Burst Media#regexhost#(\.burstbeacon\.com|\.burstnet\.com)
+197#true#ad#Zango#nreghost#*.metricsdirect.com
+198#true#ad#Adknowledge#regexhost#(\.blogads\.com|\.cubics\.com|\.bidsystem\.com|adkengage\.com|\.adknowledge\.com)
+199#true#ad#Media6Degrees#nreghost#*.media6degrees.com
+200#true#analytics#Nuconomy#nreguri#*.nuconomy.com/n.js*
+201#true#ad#Bluelithium#regexhost#(\.adrevolver\.com|\.bluelithium\.com)
+202#true#ad#Glam Media#regexuri#\.glam\.com\/(gad\/|app\/site\/affiliate\/viewchannelmodule\.act)
+203#true#analytics#Trafic#nreguri#*storage.trafic.ro/js/trafic.js*
+204#true#analytics#Lyris ClickTracks#regexuri#(\.clicktracks\.com|\/images\/mlopen_track\.html)
+205#true#tracker#Enquisite#nreguri#*.enquisite.com/log.js*
+206#true#analytics#eXTReMe Tracker#nreghost#*.extreme-dm.com
+207#true#analytics#NetMonitor#nreguri#*stat.netmonitor.fi/js/*
+208#true#analytics#Marketo#nreghost#*munchkin.marketo.net
+209#true#tracker#Demandbase#regexhost#(api|leads)\.demandbase\.com
+210#true#ad#Fetchback#nreghost#*pixel.fetchback.com
+211#true#ad#Silverpop#nreghost#*gw-services.vtrenz.net
+212#true#ad#Silverpop#regexhost#(\.mkt51\.net|\.mkt941\.com)
+213#true#ad#Silverpop#nreghost#*.sc.pages05.net
+214#true#analytics#Coremetrics#regexuri#(\/eluminate\.js|data\.cmcore\.com|\.coremetrics\.com|\.coremetrics\.eu\/)
+215#true#tracker#Magnify360#regexuri#(\.dialogmgr\.com\/tag\/lib\.js|\.magnify360\.com)
+216#true#tracker#Fathom SEO#nreghost#*tracking.fathomseo.com
+217#true#analytics#Eloqua#regexhost#(\.en25\.com|\.eloqua\.com|elqcfg\.js|elqcfgxml\.js|elqimg\.js)
+218#true#ad#Adroit Digital Solutions#regexuri#(\.imiclk\.com\/|\.abmr\.net)
+219#true#ad#Adroit Digital Solutions#nreghost#*.designbloxlive.com
+220#true#ad#Mindset Media#nreghost#*.mmismm.com
+221#true#analytics#GoDaddy Site Analytics#nreghost#*.trafficfacts.com
+222#true#ad#AppNexus#nreghost#*.adnxs.com
+223#true#ad#AlmondNet#nreghost#*.pro-market.net
+224#true#tracker#eXelate#nreghost#*.exelator.com
+225#true#ad#Fox Audience Network#nreghost#*.fimserve.com
+226#true#ad#Genome#nreghost#*.interclick.com
+227#true#ad#Datalogix#nreghost#*.nexac.com
+228#true#ad#Epic Marketplace#nreghost#*.trafficmp.com
+229#true#ad#Turn#nreghost#*.turn.com
+230#true#ad#24/7 Media#regexuri#(\.realmediadigital\.com|\.realmedia\.com\/|\.247realmedia\.com|realmedia\/ads\/)
+231#true#ad#24/7 Media#nreguri#*/scripts/oas_analytics.js*
+232#true#tracker#Bizo#regexuri#(\.bizographics\.com\/|ad\.bizo\.com\/pixel)
+233#true#analytics#Skribit#regexuri#assets\.skribit\.com\/javascripts\/SkribitSuggest\.js
+234#true#ad#Atlas#regexhost#(\.atdmt\.com|\.adbureau\.net)
+235#true#analytics#etracker#nreghost#*code.etracker.com
+236#true#analytics#etracker#nreguri#*.etracker.de/*
+237#true#analytics#etracker#nreghost#*.sedotracker.com
+238#true#tracker#ScoreCard Research Beacon#regexhost#\.(scoreresearch|securestudies|scorecardresearch)\.com
+239#true#analytics#Snoobi#nreghost#*.snoobi.com
+240#true#tracker#Rocket Fuel#regexhost#\.rfihub\.(com|net)
+241#true#analytics#ShinyStat#regexhost#\.shinystat\.(com|it)
+242#true#analytics#VisiStat#regexhost#(sniff|stats)\.visistat\.com
+243#true#analytics#VisiStat#nreghost#*.sa-as.com
+244#true#analytics#NedStat#regexhost#(\.sitestat\.com|\.nedstat\.com)
+245#true#analytics#i-stats#nreguri#*.i-stats.com/js/icounter.js*
+246#true#widget#DiggThis#regexuri#digg\.com\/[0-9a-zA-Z]*\/diggthis\.js
+247#true#ad#AMP Platform#nreghost#*.collective-media.net
+248#true#tracker#Tell-a-Friend#nreghost#*.socialtwist.com
+249#true#tracker#Facebook Beacon#nreguri#*facebook.com/beacon/*
+250#true#tracker#Facebook Beacon#nreguri#*.facebook.com/brandlift.php*
+251#true#analytics#PercentMobile#regexuri#(tracking\.percentmobile\.com\/|\/percent_mobile\.js)
+252#true#analytics#Yandex.Metrics#regexuri#\.yandex\.ru\/(resource|metrika)\/watch
+253#true#analytics#Yandex.Metrics#regexuri#yandex\.ru\/(cycounter|informer)
+254#true#ad#AdRiver#nreguri#*.adriver.ru/*
+255#true#analytics#Openstat#regexuri#\.spylog\.(com|ru)\/
+256#true#analytics#Openstat#nreguri#*openstat.net/cnt.js*
+257#true#analytics#phpMyVisites#nreguri#*/phpmyvisites.js*
+258#true#analytics#Alexa Metrics#nreghost#*.alexametrics.com
+259#true#analytics#Alexa Metrics#nreguri#*d31qbv1cthcecs.cloudfront.net/atrk.js*
+260#true#tracker#Zemanta#nreghost#*.zemanta.com
+261#true#tracker#ViziSense#nreguri#*vizisense.komli.net/pixel.js*
+262#true#tracker#ViziSense#nreguri#*vizisense.net/pixel.js*
+263#true#analytics#DoubleVerify#nreghost#*.doubleverify.com
+264#true#analytics#Statsit#nreghost#*one.statsit.com
+265#true#analytics#LeadFormix#nreguri#*.leadforce1.com/bf/bf.js*
+266#true#analytics#iPerceptions#nreghost#*.iperceptions.com
+267#true#tracker#SearchForce#nreghost#*.searchforce.net
+268#true#tracker#Zendesk#nreguri#*.zendesk.com/external/zenbox/overlay.js*
+269#true#analytics#INFOnline#nreguri#*.ivwbox.de/*
+270#true#ad#RichRelevance#regexhost#(media|recs).richrelevance\.com
+271#true#ad#RichRelevance#nreghost#*.ics0.com
+272#true#analytics#Google Website Optimizer#nreguri#*.google-analytics.com/siteopt.js*
+273#true#analytics#Navegg#regexhost#(\.navegg\.com|navdmp\.com)
+274#true#ad#Adtegrity#regexhost#(\.adtegrity\.net|\.adtpix\.com)
+275#true#analytics#BackType Widgets#nreghost#*widgets.backtype.com
+276#true#analytics#BLVD Status#regexuri#\.blvdstatus\.com\/js\/initBlvdJS\.php
+277#true#analytics#ClixMetrix#nreghost#*.clixmetrix.com
+278#true#analytics#Clixpy#nreguri#*clixpy.com/clixpy.js*
+279#true#ad#eBay Stats#nreghost#*rover.ebay.com
+280#true#tracker#Genius#nreghost#*.rsvpgenius.com
+281#true#analytics#KissMetrics#nreghost#*.kissmetrics.com
+282#true#analytics#KissMetrics#nreghost#*doug1izaerwt3.cloudfront.net
+283#true#analytics#LiveBall#nreguri#*/liveball_api.js*
+284#true#analytics#LiveInternet#nreghost#*counter.yadro.ru
+285#true#analytics#Logdy#nreguri#*logdy.com/scripts/script.js*
+286#true#tracker#Marin Search Marketer#nreghost#*.marinsm.com
+287#true#analytics#MixPanel#nreghost#*.mixpanel.com
+288#true#analytics#MixPanel#nreghost#*.mxpnl.com
+289#true#tracker#Pardot#nreghost#*.pardot.com
+290#true#tracker#LiveRamp#regexhost#(spruce\.rapleaf\.com|\.rlcdn\.com)
+291#true#analytics#TouchCommerce#nreghost#*.inq.com
+292#true#widget#Tweetboard#nreguri#*tweetboard.com/tb.js*
+293#true#widget#TweetMeme#regexuri#(tweetmeme\.com\/i\/scripts\/button\.js|zulu\.tweetmeme\.com\/button_ajax\.js)
+294#true#analytics#Unica#regexuri#(\.unica\.com\/|ntpagetag)
+295#true#tracker#WidgetBox#nreguri#*widgetserver.com/syndication/subscriber*
+296#true#tracker#WordStream#nreghost#*tracker.wordstream.com
+297#true#analytics#DC StormIQ#regexhost#(\.stormiq\.com|\.dc-storm\.com|\.stormcontainertag\.com)
+298#true#analytics#Histats#nreghost#*.histats.com
+299#true#widget#Whos.amung.us#regexuri#(widgets|whos)\.amung\.us\/
+300#true#analytics#GoSquared#nreghost#*data.gosquared.com
+301#true#analytics#GoSquared#nreghost#*d1l6p2sc9645hc.cloudfront.net
+302#true#analytics#GoSquared#nreguri#*.gosquared.com/livestats/tracker*
+303#true#widget#Apture#nreguri#*www.apture.com/js/apture.js*
+304#true#ad#CompeteXL#regexuri#(c\.compete\.com\/bootstrap\/|\.c-col\.com)
+305#true#ad#33Across#nreghost#*.33across.com
+306#true#tracker#Visual Website Optimizer#regexuri#(s3\.amazonaws\.com\/wingify\/vis_opt\.js|dev\.visualwebsiteoptimizer\.com|server\.wingify\.com\/app\/js\/code\/wg_consolidated\.js)
+307#true#tracker#Visual Website Optimizer#nreghost#*d5phz18u4wuww.cloudfront.net
+308#true#widget#MashLogic#regexuri#mashlogic\.com\/(loader\.min\.js|brands\/embed\/)
+309#true#ad#BuySellAds#nreghost#*.buysellads.com
+310#true#ad#BuySellAds#nreghost#*adn.fusionads.net
+311#true#ad#Meebo Bar#nreguri#*cim.meebo.com/cim*
+312#true#analytics#WebVisor#regexuri#(c1|beta)\.web-visor\.com\/c\.js
+313#true#tracker#Peer39#nreguri#*stags.peer39.net/*
+314#true#analytics#eProof#nreghost#*.eproof.com
+315#true#ad#Begun#nreguri#*.begun.ru/*
+316#true#analytics#ForeSee#regexhost#(foresee\-trigger|foresee\-alive|foresee\-analytics)
+317#true#tracker#Quintelligence#nreghost#*.quintelligence.com
+318#true#analytics#3DStats#nreguri#*3dstats.com/cgi-bin/3dstrack*
+319#true#analytics#AddFreeStats#nreguri#*addfreestats.com/cgi-bin/afstrack.cgi*
+320#true#analytics#Webtrekk#regexuri#(\.webtrekk\.de\/|\.webtrekk\.net|\.webtrekk-asia\.net)
+321#true#analytics#Webtrekk#regexuri#\/webtrekk(.*)\.js
+322#true#analytics#Channel Intelligence#nreghost#*channelintelligence.com
+323#true#ad#AdSide#nreguri#*ads.doclix.com/adserver/serve/*
+324#true#ad#BidVertiser#regexhost#(bdv|srv)\.bidvertiser\.com
+325#true#ad#BinLayer#nreguri#*view.binlayer.com/ad*
+326#true#tracker#Mirando#nreguri#*get.mirando.de/*
+327#true#ad#AdTiger#nreguri#*ads.adtiger.de/*
+328#true#ad#AdScale#nreguri#*.adscale.de/*
+329#true#ad#AdMeld#regexhost#(js|tag)\.admeld\.com
+330#true#analytics#ClearSaleing#nreghost#*dsa.csdata1.com
+331#true#widget#Wibiya Toolbar#regexuri#cdn\.wibiya\.com\/(toolbars|loaders)
+332#true#ad#CheckM8#regexuri#\/adam\/(cm8[0-9a-z_]+\.js|detect)
+333#true#tracker#Act-On Beacon#nreguri#*/acton/bn/*
+334#true#tracker#Certona#regexuri#(\.res-x\.com\/ws\/r2\/resonance|\/resxcls[ax][0-9a-z_]*\.js|\/resonance5050\.js)
+335#true#tracker#Gomez#regexuri#(\/gomez.+?\.js|\.[rt]\.axf8\.net\/)
+336#true#ad#Mercent#regexuri#(cdn\.mercent\.com\/js\/tracker\.js|link\.mercent\.com\/)
+337#true#ad#[x+1]#regexuri#(\.ru4\.com|ad\.xplusone\.com\/|\/xplus1\/xp1\.js)
+338#true#ad#Google AdWords Conversion#nreguri#*www.googleadservices.com/pagead/conversion*
+339#true#tracker#Clickability Beacon#nreguri#*s.clickability.com/s*
+340#true#analytics#Alexa Widget#regexuri#(xslt\.alexa\.com\/site_stats\/js\/s\/|widgets\.alexa\.com\/traffic\/javascript\/)
+341#true#tracker#ReTargeter Beacon#nreghost#*.retargeter.com
+342#true#tracker#mediaFORGE#nreghost#*tags.mediaforge.com
+343#true#ad#VisualDNA#nreghost#*.visualdna.com
+344#true#ad#VisualDNA#nreghost#*.visualdna-stats.com
+345#true#ad#VisualDNA#nreghost#*.vdna-assets.com
+346#true#analytics#ChannelAdvisor#nreghost#*.searchmarketing.com
+347#true#analytics#IntelligenceFocus#nreguri#*saas.intelligencefocus.com/sensor/*
+348#true#analytics#DomoDomain#nreguri#*www.domodomain.com/domodomain/sensor/*
+349#true#analytics#Optimost#nreghost#*.optimost.com
+350#true#ad#DoubleClick DART#regexuri#\/(html|image|js)\.ng\/
+351#true#ad#MyBuys#nreghost#*t.p.mybuys.com
+352#true#ad#Atlas ProfitBuilder#nreguri#*track.roiservice.com/track/*
+353#true#ad#PulsePoint#nreghost#*.contextweb.com
+354#true#ad#DemandMedia#regexuri#(\.dmtracker\.com\/|\.dmd53\.com)
+355#true#ad#Gorilla Nation#nreguri#*cdn.triggertag.gorillanation.com/js/triggertag.js*
+356#true#ad#Gorilla Nation#nreghost#*.evolvemediametrics.com
+357#true#tracker#Net-Results#nreguri#*nr7.us/apps/*
+358#true#tracker#Net-Results#nreguri#*cdnma.com/apps/*
+359#true#analytics#SearchIgnite#nreguri#*searchignite.com/si/cm/tracking/*
+360#true#analytics#Yahoo Search Marketing Analytics#nreguri#*.wa.marketingsolutions.yahoo.com/script/scriptservlet*
+361#true#tracker#DoubleClick Floodlight#nreguri#*.doubleclick.net/activityi*
+362#true#tracker#DoubleClick Floodlight#nreghost#*fls.doubleclick.net
+363#true#analytics#eStat#nreguri#*.estat.com/js/*
+364#true#analytics#stat4u#regexuri#(adstat\.4u\.pl\/s\.js|stat\.4u\.pl\/cgi-bin\/)
+365#true#ad#Gemius#nreghost#*.hit.gemius.pl
+366#true#ad#Gemius#nreguri#*/xgemius.js*
+367#true#tracker#Marchex#regexuri#(jlinks\.industrybrains\.com\/jsct|\.voicestar\.com)
+368#true#analytics#Proficientz#regexuri#\/zig\.(js|gif)
+369#true#analytics#Proficientz#regexuri#\/zag\.(js|gif)
+370#true#ad#MediaMind#nreghost#*.serving-sys.com
+371#true#ad#Buysight#nreghost#*.pulsemgr.com
+372#true#ad#DoubleClick Bid Manager#nreghost#*.invitemedia.com
+373#true#ad#DoubleClick Bid Manager#nreguri#*bid.g.doubleclick.net/xbbe*
+374#true#analytics#NDN Analytics#regexuri#assets\.newsinc\.com\/(ndn\.2\.js|analyticsprovider\.svc\/)
+375#true#analytics#NDN Analytics#nreghost#*analytics.newsinc.com
+376#true#tracker#Widdit#regexuri#\.predictad\.com\/scripts\/(molosky|publishers)\/
+377#true#ad#NetShelter#nreghost#*.netshelter.net
+378#true#tracker#ReputationManager#nreghost#*.iesnare.com
+379#true#tracker#BloomReach#regexhost#\.(brcdn|brsrvr|brtstats)\.com
+380#true#tracker#ClickEquations#regexhost#(beacon|js)\.clickequations\.net
+381#true#tracker#RKG Attribution Management#nreguri#*mct.rkdms.com/sid.gif*
+382#true#analytics#Web-Stat#regexhost#server[2-4]\.web-stat\.com
+383#true#analytics#Demandware Analytics#nreguri#*/internal/jscript/dwanalytics.js*
+384#true#ad#Giant Realm#nreghost#*a.giantrealm.com
+385#true#ad#Dashboard Ad#nreghost#*tags.dashboardad.net
+386#true#analytics#OWA#nreghost#*.oewabox.at
+387#true#ad#Adconion#regexhost#\.(amgdgt|adrdgt)\.com
+388#true#ad#PubMatic#nreghost#*.pubmatic.com
+389#true#analytics#LXR100#regexuri#adelixir\.com\/(webpages\/scripts\/ne_roi_tracking\.js|neroitrack)
+390#true#tracker#KeywordMax#nreguri#*keywordmax.com/tracking/*
+391#true#tracker#Amadesa#nreguri#*amadesa.com/static/client_js/engine/amadesajs.js*
+392#true#tracker#SearchRev#nreguri#*.srtk.net/www/delivery/*
+393#true#analytics#TNS#regexhost#(\.spring\-tns\.net|tns-counter\.ru|tns-counter\.js|\.tns-cs\.net|statistik-gallup\.net|\.sesamestats\.com|\.tns-gallup\.dk|\.research-int\.se)
+394#true#ad#AdRoll#nreghost#*.adroll.com
+395#true#analytics#Fireclick#nreguri#*hints.netflame.cc/service/script/*
+396#true#ad#XTEND#nreghost#*.xtendmedia.com
+397#true#widget#Newstogram#nreghost#*.newstogram.com
+398#true#analytics#TruEffect#nreghost#*ad.adlegend.com
+399#true#analytics#Mouseflow#nreghost#*.mouseflow.com
+400#true#ad#AdJuggler#regexuri#(rotator\.adjuggler\.com|\/banners\/ajtg\.js|\/servlet\/ajrotator\/)
+401#true#ad#Image Space Media#nreguri#*picadmedia.com/js/*
+402#true#ad#VigLink#regexhost#(m|js|api|cdn)\.viglink\.com
+403#true#analytics#SageMetrics#nreghost#*sageanalyst.net
+404#true#analytics#SeeVolution#nreghost#*svlu.net
+405#true#ad#DataXu#nreghost#*w55c.net
+406#true#tracker#Media Optimizer (Adobe)#nreghost#*.demdex.net
+407#true#tracker#Media Optimizer (Adobe)#regexhost#(everestjs\.net|\.everesttech\.net)
+408#true#ad#ADTECH#regexhost#\.(adtechus\.com|adtech\.de)
+409#true#ad#Microsoft adCenter Conversion#nreguri#*.r.msn.com/scripts/microsoft_adcenterconversion.js*
+410#true#ad#CBS Interactive#regexhost#(dw|adlog)\.com\.com
+411#true#ad#CBS Interactive#nreguri#*i.i.com.com/cnwk.1d/ads/*
+412#true#ad#CBS Interactive#nreghost#*bwp.cnet.com
+413#true#tracker#Netmining#nreghost#*netmng.com
+414#true#tracker#Netmining#nreghost#*.netmining.com
+415#true#tracker#OwnerIQ#nreghost#*px.owneriq.net
+416#true#ad#Zeta Search#nreguri#*app.insightgrit.com/1/*
+417#true#ad#BridgeTrack#nreghost#*ads.bridgetrack.com
+418#true#ad#BridgeTrack#nreguri#*.bridgetrack.com/track*
+419#true#ad#BridgeTrack#nreguri#*.bridgetrack.com/a/s/*
+420#true#tracker#ConvergeTrack#nreghost#*hits.convergetrack.com
+421#true#ad#MarketGid#regexhost#(\.dt07\.net|\.dt00\.net)
+422#true#ad#Halogen Network#regexhost#(publishers|\.hat)\.halogennetwork\.com
+423#true#analytics#Phonalytics#nreguri#*app.phonalytics.com/track*
+424#true#ad#Syncapse#nreguri#*cn.clickable.net/js/cct.js*
+425#true#ad#BlueStreak#regexuri#s0b?\.bluestreak\.com\/ix\.e
+426#true#tracker#DSMM Advantage#nreguri#*tracking.dsmmadvantage.com/clients/*
+427#true#tracker#Optim.al#regexuri#(\.optorb\.com|cdn\.nprove\.com\/npcore\.js|go\.cpmadvisors\.com\/|\.orbengine\.com)
+428#true#ad#InterMundo Media#nreghost#*.intermundomedia.com
+429#true#tracker#MindViz Tracker#regexuri#mvtracker\.com\/(counter|stats|tr\.x|ts|tss|mvlive|digits)
+430#true#ad#Vertical Acuity#regexuri#(scripts|tm)\.verticalacuity\.com\/vat\/mon\/
+431#true#analytics#ClickInc#regexhost#(impression|ca)\.clickinc\.com
+432#true#ad#SkimLinks#nreguri#*.skimresources.com/js*
+433#true#ad#SkimLinks#regexuri#\.skimlinks\.com\/(api|js)\/
+434#true#ad#Meta Network#nreghost#*ad.metanetwork.com
+435#true#tracker#Legolas Media#nreghost#*rt.legolas-media.com
+436#true#tracker#Krux Digital#nreghost#*cdn.krxd.net
+437#true#ad#Google Affiliate Network#regexuri#(clickserve\.cc-dt\.com\/link\/|gan\.doubleclick\.net\/gan)
+438#true#ad#FreeWheel#regexuri#\.fwmrm\.net\/(ad|g)\/
+439#true#ad#InternetBrands#regexhost#(\.ibpxl\.com|\.ibsrv\.net)
+440#true#ad#Performancing Metrics#regexuri#pmetrics\.performancing\.com\/(js|in\.php|[0-9]*\.js)
+441#true#analytics#Trackset ConversionLab#regexuri#(tracking\.conversionlab\.it|conversionlab\.trackset\.com\/track\/)
+442#true#analytics#Trackset VisualPath#regexuri#visualpath[0-9]\.trackset\.it\/
+443#true#ad#Adblade#nreghost#*.adblade.com
+444#true#ad#Undertone Networks#nreghost#*ads.undertone.com
+445#true#ad#Undertone Networks#nreguri#*cdn.undertone.com/js/ajs.js*
+446#true#ad#Lucid Media#nreghost#*.lucidmedia.com
+447#true#analytics#Didit Maestro#nreghost#*track.did-it.com
+448#true#analytics#Didit Blizzard#regexuri#tag\.didit\.com\/(didit|js)\/
+449#true#ad#Pulse360#regexhost#(content|track)\.pulse360\.com
+450#true#ad#AdGear#nreghost#*.adgear.com
+451#true#tracker#ClickDensity#nreguri#*j.clickdensity.com/cr.js*
+452#true#analytics#VisitorVille#nreguri#*visitorville.com/js/plgtrafic.js.php*
+453#true#ad#AffiliateBuzz#nreghost#*ads.affbuzzads.com
+454#true#tracker#VerticalResponse#nreguri#*cts.vresp.com/s.gif*
+455#true#ad#LinkShare#nreghost#*.linksynergy.com
+456#true#tracker#AliveChat#regexhost#websitealive[0-9]\.com
+457#true#tracker#AliveChat#nreghost#*.websitealive.com
+458#true#analytics#Monetate#nreguri#*b.monetate.net/js/*
+459#true#tracker#Teracent#regexhost#(adserver|int)\.teracent\.net
+460#true#tracker#Aggregate Knowledge#regexuri#(html\.aggregateknowledge\.com\/iframe|\.agkn\.com)
+461#true#tracker#TellApart#regexuri#(\.tellapart\.com|\.tellaparts\.com)\/crumb
+462#true#tracker#TellApart#nreghost#*t.tellapart.com
+463#true#ad#BV! Media#nreguri#*vitamine.networldmedia.net/bts/*
+464#true#ad#Project Wonderful#nreghost#*projectwonderful.com
+465#true#tracker#VoiceFive#regexuri#voicefive\.com\/.*\.pli
+466#true#analytics#Econda#regexuri#(\/econda.*\.js|www\.econda-monitor\.de\/els\/logging)
+467#true#ad#AdSpeed#regexuri#adspeed\.(com|net)\/ad\.php
+468#true#analytics#NetUpdater#nreguri#*live1.netupdater.info/live.php*
+469#true#analytics#NetUpdater#regexhost#netupdater[0-9]\.de
+470#true#analytics#NetUpdater#nreguri#*/netupdater*
+471#true#analytics#iCrossing#nreghost#*.ic-live.com
+472#true#analytics#iCrossing#nreghost#*.sptag3.com
+473#true#ad#AdReady#regexuri#(\.adready\.com|adreadytractions\.com\/rt\/)
+474#true#ad#AdEngage#regexhost#(adcode|conv)\.adengage\.com
+475#true#ad#CPMStar#nreghost#*.cpmstar.com
+476#true#widget#Financial Content#nreghost#*tracker.financialcontent.com
+477#true#ad#ClearSearch#nreguri#*www.csm-secure.com/scripts/clicktracking.js*
+478#true#analytics#Encore Metrics#nreghost#*.sitecompass.com
+479#true#widget#eWayDirect#nreguri#*link.ixs1.net/s/at*
+480#true#widget#UpSellit#nreguri#*upsellit.com/*
+481#true#ad#Accelerator Media#nreguri#*accelerator-media.com/pixel*
+482#true#analytics#Vizu#nreghost#*.vizu.com
+483#true#ad#AdFox#regexuri#\.(adfox|adwolf)\.ru\/
+484#true#widget#Brightcove#regexuri#(goku\.brightcove\.com|admin\.brightcove\.com\/js)
+485#true#tracker#Ensemble#regexuri#(ats\.tumri\.net|\.tumri\.net\/ads)
+486#true#ad#MediaMath#regexhost#(\.mathtag\.com|\.mathads\.com)
+487#true#tracker#Rambler#regexhost#(ad|ad2|counter|top100-images)\.rambler\.ru
+488#true#tracker#Rambler#nreguri#*.mail.ru/counter*
+489#true#tracker#BlueCava#nreghost#*.bluecava.com
+490#true#tracker#Monitus#regexhost#(monitus\.js|monitus_tools\.js)
+491#true#tracker#Monitus#nreghost#*.monitus.net
+492#true#tracker#Optify#nreghost#*service.optify.net
+493#true#ad#Redux Media#regexhost#(\.reduxmediagroup\.com|\.reduxmedia\.com)
+494#true#ad#PrecisionClick#regexhost#(servedby|geo)\.precisionclick\.com
+495#true#tracker#Gigya Beacon#regexhost#(counters\.gigya\.com|c\.gigcount\.com)
+496#true#analytics#Usability Sciences WebIQ#regexhost#(webiq-warp\.appspot\.com|webiq-cdn\.appspot\.com|webiqonline\.com)
+497#true#analytics#Cedexis Radar#regexhost#radar\.cedexis\.(com|net)
+498#true#tracker#ATG Optimization#nreguri#*as00.estara.com/as/initiatecall2.php*
+499#true#tracker#ATG Recommendations#nreguri#*.atgsvcs.com/js/atgsvcs.js*
+500#true#analytics#Media Innovation Group#nreghost#*.mookie1.com
+501#true#analytics#BusinessOnLine Analytics#nreghost#*stats.businessol.com
+502#true#analytics#Web Traxs#regexhost#webtraxs\.(js|com)
+503#true#ad#AdBuyer.com#nreghost#*pixel.adbuyer.com
+504#true#tracker#Neustar AdAdvisor#nreghost#*adadvisor.net
+505#true#analytics#Vertster#regexuri#vertster.com\/.*\/vswap\.js
+506#true#tracker#InternetAudioAds#nreguri#*voice2page.com/naa_1x1.js*
+507#true#ad#DSNR Media Group#nreghost#*ad.z5x.net
+508#true#ad#Result Links#nreghost#*data.resultlinks.com
+509#true#ad#EyeWonder#nreghost#*eyewonder.com
+510#true#ad#Wall Street on Demand#nreghost#*.wsod.com
+511#true#analytics#Visible Measures#nreguri#*.visiblemeasures.com/log*
+512#true#analytics#GTop#regexuri#fx\.gtop(stats\.com|\.ro)\/js\/gtop\.js
+513#true#ad#Facilitate Digital#regexhost#adsfac\.(eu|us|sg|net)
+514#true#tracker#Luminate#nreguri#*pixazza.com/*
+515#true#tracker#Luminate#nreghost#*.luminate.com
+516#true#ad#Quinn Street#regexuri#(qnsr\.com|thecounter\.com\/id)
+517#true#ad#Specific Media#nreghost#*.specificclick.net
+518#true#ad#Specific Media#regexhost#(smp|leads)\.specificmedia\.com
+519#true#ad#Specific Media#nreghost#*adviva.net
+520#true#ad#GroupM Server#regexhost#(gmads\.net|\.grmtech\.net)
+521#true#tracker#TagMan#nreghost#*levexis.com
+522#true#tracker#Maxymiser#regexhost#(mmcore\.js|cg-global\.maxymiser\.com)
+523#true#analytics#Ensighten#nreghost#*.ensighten.com
+524#true#analytics#Uptrends#regexuri#uptrends\.com\/(aspx\/uptime\.aspx|images\/uptrends\.gif)
+525#true#analytics#Visit Streamer#nreguri#*visitstreamer.com/vs.js*
+526#true#analytics#crmmetrix#nreghost#*crm-metrix.com
+527#true#analytics#crmmetrix#nreghost#*customerconversio.com
+528#true#analytics#Stratigent#nreghost#*utd.stratigent.com
+529#true#widget#Facebook Social Plugins#regexuri#facebook\.com\/(plugins|widgets)\/.*\.php
+530#true#widget#Facebook Social Plugins#nreghost#*badge.facebook.com
+531#true#widget#Facebook Social Plugins#regexuri#fbcdn\.net\/connect\.php\/js\/fb\.(share|loader)
+532#true#tracker#Chango#regexhost#\.chango\.(ca|com)
+533#true#ad#Tremor Media#nreghost#*cdna.tremormedia.com
+534#true#ad#Tremor Media#nreguri#*objects.tremormedia.com/embed/js*
+535#true#ad#Tremor Media#nreghost#*.scanscout.com
+536#true#ad#Dapper#nreghost#*admonkey.dapper.net
+537#true#ad#Accuen Media#nreghost#*p-td.com
+538#true#analytics#Adara Media#nreghost#*yieldoptimizer.com
+539#true#tracker#Datran#nreghost#*displaymarketplace.com
+540#true#tracker#Datran#nreghost#*a.live-conversion.com
+541#true#ad#Ybrant Media#nreghost#*ads.addynamix.com
+542#true#ad#Ybrant Media#nreghost#*ad.adserverplus.com
+543#true#ad#Connextra#regexhost#(dd|ff)\.connextra\.com
+544#true#ad#Conduit#regexhost#(api|apps)\.conduit\.com
+545#true#ad#Conduit#regexhost#conduit-(banners|data)\.com
+546#true#ad#Underdog Media#nreghost#*udmserve.net
+547#true#tracker#AdPredictive#nreghost#*pixel.adpredictive.com
+548#true#tracker#Steel House Media#nreghost#*px.steelhousemedia.com
+549#true#tracker#GoDataFeed#nreghost#*tracking.godatafeed.com
+550#true#widget#Trumba#nreguri#*.trumba.com/scripts/spuds.js*
+551#true#ad#EroAdvertising#nreghost#*adspaces.ero-advertising.com
+552#true#ad#AdXpansion#nreghost#*ads.adxpansion.com
+553#true#tracker#Performable#nreguri#*/performable/pax*
+554#true#tracker#Performable#nreghost#*analytics.performable.com
+555#true#widget#SnapEngage#nreguri#*snapabug.appspot.com/*
+556#true#widget#SnapEngage#regexuri#\.snapengage\.com\/(snapabug\.js|snapengage\-)
+557#true#analytics#C3 Metrics#nreghost#*.c3metrics.com
+558#true#analytics#C3 Metrics#nreghost#*.c3tag.com
+559#true#ad#Simpli.fi#nreguri#*.simpli.fi/*
+560#true#ad#Cobalt Group#nreghost#*.admission.net
+561#true#ad#YuMe, Inc.#nreguri#*yumenetworks.com/dynamic*
+562#true#ad#Vindico Group#nreguri#*trk.vindicosuite.com/tracking/*
+563#true#ad#Unicast#regexuri#creativeby2\.unicast\.com\/(assets|script2)
+564#true#ad#Interpolls#regexhost#(hs|sw)\.interpolls\.com
+565#true#tracker#RadiumOne#nreghost#*.gwallet.com
+566#true#ad#Digilant#nreghost#*wtp101.com
+567#true#ad#AdShuffle#nreghost#*.adshuffle.com
+568#true#ad#Flashtalking#regexhost#(servedby|stat|cdn|a)\.flashtalking\.com
+569#true#tracker#AdXpose#regexhost#(servedby|ads|event)\.adxpose\.com
+570#true#ad#Acxiom#regexhost#(\.mm7\.net|\.acxiom\.com|acxiom\-online\.com)
+571#true#ad#AdCentric#nreghost#*adcentriconline.com
+572#true#ad#Admotion#regexhost#(nspmotion\.com|dmmotion\.com)
+573#true#ad#BrightRoll#nreghost#*.btrll.com
+574#true#ad#ChoiceStream#nreghost#*.choicestream.com
+575#true#ad#SMART AdServer#nreghost#*.smartadserver.com
+576#true#ad#SMART AdServer#nreghost#*.yoc-adserver.com
+577#true#ad#SpotXchange#nreguri#*spotxchange.com/track*
+578#true#ad#SpotXchange#nreghost#*.spotxchange.com
+579#true#ad#AdInterax#regexuri#mi\.adinterax\.com\/(js|customer)
+580#true#analytics#Tealium#nreghost#*utag.loader.js
+581#true#analytics#Tealium#nreghost#*d34ko97cxuv4p7.cloudfront.net
+582#true#analytics#Tealium#regexhost#(tealium\.hs\.llnwd\.net|tags\.tiqcdn\.com)
+583#true#ad#e-planning#nreghost#*.e-planning.net
+584#true#privacy#TRUSTe Notice#nreguri#*choices.truste.com/ca*
+585#true#privacy#TRUSTe Notice#nreghost#*consent.truste.com
+586#true#tracker#BrightTag#nreghost#*btstatic.com
+587#true#tracker#BrightTag#regexuri#(s\.thebrighttag\.com|\.tags\.sitetagger\.co\.uk\/)
+588#true#ad#TLDAdserv#nreguri#*tldadserv.com/impopup.php*
+589#true#analytics#WiredMinds#nreguri#*wiredminds.de/track*
+590#true#ad#Brilig#nreguri#*p.brilig.com/contact/bct*
+591#true#analytics#XGraph#regexuri#xcdn\.xgraph\.net\/([0-9]|partner\.js)
+592#true#ad#Proximic#nreghost#*.proximic.com
+593#true#tracker#Struq#nreghost#*.struq.com
+594#true#analytics#Beencounter#nreguri#*beencounter.com/b.js*
+595#true#ad#Travora Media#nreguri#*traveladvertising.com/live/*
+596#true#ad#Crimtan#nreghost#*ctasnet.com
+597#true#ad#Crimtan#regexhost#(\.ctpsnet\.com|\.ctnsnet\.com)
+598#true#tracker#CoreAudience#nreghost#*raasnet.com
+599#true#ad#eyeReturn Marketing#nreghost#*eyereturn.com
+600#true#tracker#myThings#nreghost#*.mythings.com
+601#true#tracker#Think Realtime#regexhost#(d9lq0o81skkdj\.cloudfront\.net|esm1\.net)
+602#true#tracker#Magnetic#regexhost#domdex\.(net|com)
+603#true#tracker#Magnetic#nreghost#*qjex.net
+604#true#ad#OxaMedia#nreghost#*adconnexa.com
+605#true#ad#Spongecell#nreghost#*.spongecell.com
+606#true#ad#Adnologies#nreghost#*.heias.com
+607#true#analytics#Weborama#nreguri#*.weborama.fr/*
+608#true#ad#TradeDoubler#nreghost#*.tradedoubler.com
+609#true#analytics#Effective Measure#nreghost#*effectivemeasure.net
+610#true#ad#Brand.net#regexhost#(ads\.brand\.net|vdrn\.redplum\.com)
+611#true#tracker#Quisma#regexhost#(tracking\.quisma\.com|\.qservz\.com)
+612#true#tracker#Veruta#nreghost#*.veruta.com
+613#true#tracker#Veruta#nreguri#*veruta.com/scripts/trackmerchant.js*
+614#true#ad#5min Media#regexhost#(pshared|pfiles|pthumbnails|embed)\.5min\.com
+615#true#analytics#YellowTracker#nreghost#*stat.yellowtracker.com
+616#true#ad#Back Beat Media#nreghost#*.backbeatmedia.com
+617#true#ad#Say Media#regexuri#(amconf|core|adcontent)\.videoegg\.com\/(siteconf|eap|alternates|ads)\/
+618#true#ad#Say Media#nreghost#*ads.saymedia.com
+619#true#ad#Contaxe#nreguri#*contaxe.com/go*
+620#true#ad#Zanox#nreghost#*.zanox.com
+621#true#ad#Zanox#nreguri#*www.zanox-affiliate.de/ppv/*
+622#true#ad#Spark Studios#nreghost#*rts.sparkstudios.com
+623#true#ad#JuicyAds#nreghost#*.juicyads.com
+624#true#ad#Pheedo#nreghost#*ads.pheedo.com
+625#true#widget#Cbox#nreguri#*www.cbox.ws/box*
+626#true#ad#ad4game#nreghost#*ads.ad4game.com
+627#true#tracker#uCoz#nreghost#*a.ucoz.net
+628#true#tracker#uCoz#regexuri#(do\.am|at\.ua)\/stat\/
+629#true#tracker#uCoz#regexuri#ucoz\.(.*)\/(stat|main)\/
+630#true#tracker#bigmir#nreghost#*c.bigmir.net
+631#true#analytics#TradeTracker#nreghost#*.tradetracker.net
+632#true#ad#Commission Junction#nreguri#*tqlkg.com/image*
+633#true#ad#Commission Junction#nreghost#*qksz.net
+634#true#ad#Commission Junction#nreghost#*ftjcfx.com
+635#true#ad#Commission Junction#nreghost#*tqlkg.com
+636#true#ad#Commission Junction#nreghost#*yceml.net
+637#true#ad#Commission Junction#nreghost#*apmebf.com
+638#true#ad#Commission Junction#nreghost#*emjcd.com
+639#true#ad#Commission Junction#nreghost#*lduhtrp.net
+640#true#ad#Commission Junction#nreghost#*awltovhc.com
+641#true#ad#Commission Junction#nreghost#*tkqlhce.com
+642#true#ad#Commission Junction#nreghost#*anrdoezrs.net
+643#true#ad#GeoAds#nreghost#*js.geoads.com
+644#true#analytics#Certifica Metric#nreghost#*certifica.js
+645#true#analytics#Certifica Metric#nreghost#*certifica-js14.js
+646#true#analytics#Certifica Metric#nreghost#*hits.e.cl
+647#true#analytics#Certifica Metric#nreghost#*prima.certifica.com
+648#true#ad#Traffiq#nreghost#*ads.traffiq.com
+649#true#ad#Conviva#regexhost#(livepass|livepassdl)\.conviva\.com
+650#true#ad#Cadreon#nreguri#*cadreon.com/tags/defaultads*
+651#true#ad#Cadreon#regexhost#(d1qpxk1wfeh8v1|d1cerpgff739r9)\.cloudfront\.net
+652#true#analytics#SkyTide Anlaytics#nreguri#*184.73.199.28/tracker/event*
+653#true#widget#AdKeeper#nreghost#*a.akncdn.com
+654#true#privacy#Evidon Notice#nreghost#*.betrad.com
+655#true#ad#Dedicated Media#nreghost#*beacon.dedicatednetworks.com
+656#true#ad#Dedicated Media#nreghost#*ads.dedicatedmedia.com
+657#true#analytics#Anormal Tracker#nreguri#*anormal-tracker.de/tracker.js*
+658#true#analytics#Anormal Tracker#nreguri#*anormal-tracker.de/countv2.php*
+659#true#analytics#TrackingSoft#nreguri#*roia.biz/*
+660#true#ad#Adap.tv#regexhost#(ads|sync|set|log|redir)\.adap\.tv
+661#true#ad#Adap.tv#nreghost#*segments.adap.tv
+662#true#ad#Adap.tv#regexhost#(ads|sync|set|log|redir)\.adap\.com
+663#true#tracker#Peerset#nreghost#*.keewurd.com
+664#true#ad#LiftDNA#nreghost#*rt.liftdna.com
+665#true#ad#Paid-To-Promote#nreguri#*paid-to-promote.net/images/ptp.gif*
+666#true#ad#Paid-To-Promote#nreguri#*777seo.com/*
+667#true#ad#TradeDesk#nreghost#*.adsrvr.org
+668#true#tracker#Hurra Tracker#nreguri#*hurra.com/ostracker.js*
+669#true#tracker#Convertro#nreghost#*sp1.convertro.com
+670#true#tracker#Convertro#nreghost#*d1ivexoxmp59q7.cloudfront.net
+671#true#ad#AdPerium#nreghost#*.adperium.com
+672#true#ad#Nabbr#nreghost#*tags.nabbr.com
+673#true#analytics#Adometry#nreghost#*.dmtry.com
+674#true#analytics#KissInsights#nreguri#*/ki.js/*
+675#true#analytics#KissInsights#nreghost#*j.kissinsights.com
+676#true#tracker#Optimizely#nreguri#*cdn.optimizely.com/js/*
+677#true#analytics#WebGozar#nreguri#*webgozar.ir/c.aspx*
+678#true#analytics#WebGozar#nreguri#*webgozar.com/counter*
+679#true#analytics#i.ua#nreghost#*r.i.ua
+680#true#analytics#HotLog#nreguri#*hotlog.ru/cgi-bin/hotlog*
+681#true#tracker#dwstat.cn#nreghost#*cn01.dwstat.cn
+682#true#ad#Pepperjam#regexhost#(gopjn|pjatr|pjtra|pntra|pntrac|pntrs)\.com
+683#true#ad#Matchbin#nreghost#*analytics.matchbin.com
+684#true#ad#Matchbin#nreghost#*ads.matchbin.com
+685#true#ad#ShareASale#nreghost#*shareasale.com
+686#true#ad#Etology#nreghost#*pages.etology.com
+687#true#tracker#Smowtion#nreghost#*.smowtion.com
+688#true#tracker#Nextag ROI Optimizer#nreguri#*imgsrv.nextag.com/imagefiles/includes/roitrack.js*
+689#true#analytics#Integral Ad Science#nreghost#*pixel.adsafeprotected.com
+690#true#analytics#Integral Ad Science#nreghost#*fw.adsafeprotected.com
+691#true#ad#FriendFinder Network#nreghost#*.streamray.com
+692#true#ad#FriendFinder Network#nreghost#*.pop6.com
+693#true#ad#FriendFinder Network#nreghost#*.cams.com
+694#true#ad#FriendFinder Network#nreghost#*.nostringsattached.com
+695#true#ad#FriendFinder Network#nreghost#*.getiton.com
+696#true#ad#FriendFinder Network#nreghost#*.adultfriendfinder.com
+697#true#ad#FriendFinder Network#nreghost#*.double-check.com
+698#true#ad#FriendFinder Network#nreghost#*.facebookofsex.com
+699#true#ad#FriendFinder Network#nreghost#*.amigos.com
+700#true#ad#FriendFinder Network#nreghost#*.cennter.com
+701#true#ad#FriendFinder Network#nreghost#*.hot-dances.com
+702#true#ad#Technorati Media#nreghost#*cdn.technoratimedia.com
+703#true#ad#SponsorAds.de#nreghost#*.sponsorads.de
+704#true#ad#AdvertiseSpace#nreghost#*.advertisespace.com
+705#true#ad#Madison Logic#nreghost#*dinclinx.com
+706#true#ad#Madison Logic#nreguri#*.madisonlogic.com/jsc*
+707#true#widget#Twitter Button#nreguri#*platform.twitter.com/widgets/*
+708#true#analytics#SiteBro#regexuri#sitebro\.(tw|net|com)\/track\.js
+709#true#widget#Polldaddy#nreguri#*static.polldaddy.com/p*
+710#true#ad#NetSeer#nreghost#*.netseer.com
+711#true#ad#AdForm#nreghost#*.adform.net
+712#true#ad#Newtention#regexhost#ads\.(newtention|newtentionassets)\.net
+713#true#ad#Newtention#nreghost#*trk.newtention.net
+714#true#ad#Clip Syndicate#nreghost#*eplayer.clipsyndicate.com
+715#true#ad#Adition#nreghost#*.adition.com
+716#true#ad#Adorika#nreghost#*ad.clickotmedia.com
+717#true#ad#Adorika#regexhost#\.adorika\.(com|net)
+718#true#analytics#New Relic#regexhost#(d1ros97qkrwjf5\.cloudfront\.net|\.newrelic\.com)
+719#true#widget#Google +1#regexuri#(apis\.google\.com\/js\/plusone\.js|plusone\.google\.com\/\_\/\+1\/fastbutton)
+720#true#widget#Google +1#nreguri#*.google.com/buzz/api/button.js*
+721#true#tracker#ToneFuse#nreghost#*srv.clickfuse.com
+722#true#analytics#Opentracker#nreghost#*.opentracker.net
+723#true#analytics#Footprint#regexhost#(img|script)\.footprintlive\.com
+724#true#ad#AdReactor#nreghost#*adreactor.com
+725#true#tracker#AdOcean#nreghost#*adocean.pl
+726#true#widget#Everyday Health#nreghost#*waterfrontmedia.com
+727#true#ad#Meteor Solutions#nreghost#*.meteorsolutions.com
+728#true#analytics#Free Online Users#regexuri#(freeonlineusers\.com|fastonlineusers\.com\/on|fastwebcounter\.com\/secure\.php)
+729#true#analytics#statistics.ro#nreguri#*.statistics.ro/*
+730#true#analytics#KeyMetric#nreghost#*.keymetric.net
+731#true#ad#AdvertServe#nreghost#*.advertserve.com
+732#true#ad#Affili.net#nreghost#*.successfultogether.co.uk
+733#true#ad#Affili.net#nreghost#*.banner-rotation.com
+734#true#ad#Affili.net#nreghost#*.webmasterplan.com
+735#true#tracker#Unbounce#nreghost#*d3pkntwtp2ukl5.cloudfront.net
+736#true#tracker#Unbounce#nreghost#*t.unbounce.com
+737#true#tracker#Zopim#nreghost#*zopim.com
+738#true#ad#Brainient#nreghost#*.brainient.com
+739#true#ad#Kitara Media#regexhost#(ad\.103092804\.com|\.kmdisplay\.com)
+740#true#ad#Traffic Revenue#nreghost#*.trafficrevenue.net
+741#true#tracker#AdBull#nreghost#*.adbull.com
+742#true#ad#Complex Media Network#nreghost#*.complexmedianetwork.com
+743#true#ad#Complex Media Network#nreghost#*.complex.com
+744#true#ad#PocketCents#nreghost#*pocketcents.com
+745#true#widget#Hello Bar#nreguri#*/hellobar.js*
+746#true#tracker#Direct Response Group#nreghost#*.ppctracking.net
+747#true#analytics#expo-MAX#nreghost#*expo-max.com
+748#true#analytics#HitSniffer#nreghost#*hitsniffer.com
+749#true#ad#Infectious Media#regexhost#(\.impressiondesk\.com|\.impdesk\.com)
+750#true#ad#AdMeta#nreghost#*.atemda.com
+751#true#tracker#RightWave#nreguri#*/std/resource/script/rwts.js*
+752#true#analytics#Spring Metrics#nreghost#*.springmetrics.com
+753#true#analytics#Spring Metrics#nreghost#*d3rmnwi2tssrfx.cloudfront.net
+754#true#widget#ActiveConversion#nreghost#*.activeconversion.com
+755#true#ad#LinkConnector#nreghost#*.linkconnector.com
+756#true#ad#AdMedia#nreghost#*.admedia.com
+757#true#ad#Prosperent#nreghost#*prosperent.com
+758#true#ad#ExitJunction#nreghost#*.exitjunction.com
+759#true#ad#ExitJunction#nreghost#*.dynamicoxygen.com
+760#true#analytics#Web Wipe Anlaytics#nreghost#*wwa.wipe.de
+761#true#analytics#Tinystat#regexhost#\.tinystat\.(ir|com)
+762#true#tracker#NetBina#nreghost#*.netbina.com
+763#true#analytics#RadarURL#nreghost#*radarurl.com
+764#true#widget#Olark#nreghost#*.olark.com
+765#true#tracker#Parse.ly#nreghost#*.parsely.com
+766#true#tracker#PersianStat#nreghost#*.persianstat.com
+767#true#analytics#Lytiks#nreghost#*.lytiks.com
+768#true#ad#Nuffnang#nreghost#*.nuffnang.com
+769#true#ad#PriceGrabber#nreguri#*.pricegrabber.com/conversion.php*
+770#true#ad#Tailsweep#nreghost#*.tailsweep.com
+771#true#widget#Scribol#nreghost#*scribol.com
+772#true#ad#IndieClick#nreghost#*.indieclick.com
+773#true#widget#Topsy#regexhost#(cdn|otter)\.topsy\.com
+774#true#ad#InvestingChannel#nreghost#*.investingchannel.com
+775#true#widget#Wahoha#nreghost#*wahoha.com
+776#true#widget#Wahoha#nreghost#*contentwidgets.net
+777#true#tracker#BlogFrog#nreghost#*theblogfrog.com
+778#true#tracker#Peerius#nreghost#*.peerius.com
+779#true#analytics#w3roi#nreghost#*.w3roi.com
+780#true#widget#Yandex.API#nreguri#*yandex.st/share/*
+781#true#tracker#2leep#nreghost#*2leep.com
+782#true#widget#NetworkedBlogs#nreghost#*nwidget.networkedblogs.com
+783#true#ad#AdOnion#nreghost#*.adonion.com
+784#true#ad#SpeedyAds#nreguri#*sa.entireweb.com/sense.js*
+785#true#widget#VKontakte Widgets#nreguri#*userapi.com/js/api/*
+786#true#widget#VKontakte Widgets#regexuri#vkontakte\.ru\/js\/api\/(share|openapi)\.js
+787#true#widget#VKontakte Widgets#regexuri#vk\.com\/js\/api\/(share|openapi)\.js
+788#true#widget#VKontakte Widgets#regexuri#(vk\.com|vkontakte\.ru)\/widget_groups\.php
+789#true#ad#DuraSite#nreghost#*.durasite.net
+790#true#ad#Carbon Ads#nreghost#*.carbonads.com
+791#true#analytics#AdPlan#nreghost#*.advg.jp
+792#true#analytics#AdPlan#nreghost#*.adplan-ds.com
+793#true#analytics#AdPlan#nreghost#*c.p-advg.com
+794#true#analytics#AdPlan#nreguri#*.adplan.ne.jp/cgi-bin/ad/se*
+795#true#ad#Unanimis#nreghost#*.unanimis.co.uk
+796#true#ad#AdJug#nreghost#*.adjug.com
+797#true#ad#MicroAd#regexuri#(\.microad\.jp\/|\.microadinc\.com|\.unthem\.com)
+798#true#ad#AdLantis#nreguri#*.adlantis.jp/*
+799#true#ad#AdLantis#nreghost#*.adimg.net
+800#true#ad#FreakOut#nreguri#*js.fout.jp/*
+801#true#ad#Advertise.com#nreghost#*.advertise.com
+802#true#analytics#Marktest#nreghost#*netscope.data.marktest.pt
+803#true#analytics#Visual Revenue#nreghost#*.visualrevenue.com
+804#true#privacy#GDN Notice#nreguri#*pagead2.googlesyndication.com/pagead/images/ad_choices_*
+805#true#privacy#GDN Notice#nreguri#*pagead2.googlesyndication.com/pagead/abglogo/adc*
+806#true#privacy#GDN Notice#nreguri#*tpc.googlesyndication.com/pagead/images/adchoices/icon.png*
+807#true#privacy#GDN Notice#nreguri#*pagead2.googlesyndication.com/pagead/images/adchoices/*
+808#true#privacy#Microsoft Notice#nreguri#*col.stc.s-msn.com/br/sc/i/ff/adchoices*
+809#true#privacy#Microsoft Notice#nreguri#*.msads.net/library/adchoices/*
+810#true#ad#HOTWords#nreghost#*.hotwords.com
+811#true#ad#HOTWords#nreguri#*.hotwords.es/*
+812#true#ad#AdTotal#nreguri#*.adtotal.pl/*
+813#true#widget#LinkedIn Widgets#nreghost#*platform.linkedin.com
+814#true#tracker#Cognitive Match#regexhost#(\.cognitivematch\.com|\.cmmeglobal\.com)
+815#true#tracker#Spectate#nreghost#*.spectate.com
+816#true#analytics#MyPagerank#nreguri#*.mypagerank.net/services*
+817#true#widget#StumbleUpon Widgets#nreguri#*.stumble-upon.com/js/widgets.js*
+818#true#widget#StumbleUpon Widgets#nreguri#*.stumbleupon.com/hostedbadge*
+819#true#widget#StumbleUpon Widgets#nreguri#*.stumbleupon.com/badge/embed/*
+820#true#widget#StumbleUpon Widgets#nreguri#*platform.stumbleupon.com/1/widgets.js*
+821#true#widget#StumbleUpon Widgets#nreguri#*su.pr/hosted_js*
+822#true#ad#ExoClick#nreghost#*.exoclick.com
+823#true#analytics#CNZZ#nreghost#*.cnzz.com
+824#true#analytics#Nakanohito#nreghost#*nakanohito.jp
+825#true#tracker#Next Performance#nreghost#*nxtck.com
+826#true#ad#Predicta#nreghost#*.adserver.com.br
+827#true#analytics#Meetrics#regexuri#\.(research\.de\.com|meetrics\.net)\/bb
+828#true#ad#Plista#nreguri#*.plista.com/*
+829#true#analytics#VG Wort#nreguri#*met.vgwort.de/*
+830#true#analytics#Ninja Access Analysis#regexuri#(\.shinobi\.jp\/|\.donburako\.com|\.cho-chin\.com|\.hishaku\.com)
+831#true#ad#Brand Affinity#nreghost#*.brandaffinity.net
+832#true#analytics#Sophus3#nreghost#*.sophus3.com
+833#true#ad#Hi-Media Performance#nreghost#*.comclick.com
+834#true#ad#Hi-Media Performance#regexhost#(\.himediads\.com|\.hi-mediaserver\.com)
+835#true#ad#ClicManager#nreguri#*.clicmanager.fr/*
+836#true#ad#ClickInText#nreghost#*.clickintext.net
+837#true#widget#iWiW Widgets#nreguri#*iwiw.hu/like.jsp*
+838#true#ad#Veoxa#nreghost#*.veoxa.com
+839#true#ad#AdoTube#nreghost#*.adotube.com
+840#true#ad#Optimax Media Delivery#nreghost#*.optmd.com
+841#true#ad#MaxPoint Interactive#nreghost#*.mxptint.net
+842#true#tracker#i-Behavior#nreghost#*.ib-ibi.com
+843#true#ad#Korrelate#regexhost#(\.korrelate\.net|\.cleanrm\.net)
+844#true#ad#Blink New Media#nreghost#*ad.bnmla.com
+845#true#ad#Platform161#regexhost#(ads\.creative-serving\.com|\.p161\.net)
+846#true#ad#LiveRail#nreghost#*.liverail.com
+847#true#tracker#Cross Pixel Media#nreghost#*.crosspixel.net
+848#true#tracker#Cross Pixel Media#nreghost#*.crsspxl.com
+849#true#tracker#Intent Media#nreghost#*.intentmedia.net
+850#true#ad#Emediate#regexhost#\.emediate\.(dk|se|eu)
+851#true#analytics#TubeMogul#nreghost#*rtd.tubemogul.com
+852#true#ad#Auditude#nreghost#*.auditude.com
+853#true#privacy#Pulse360 Notice#nreguri#*.pulse360.com/images/infoicon.png*
+854#true#ad#Adversal#nreghost#*.adversalservers.com
+855#true#ad#Adfusion#nreghost#*.adfusion.com
+856#true#tracker#LoopFuse OneView#nreguri#*lfov.net/webrecorder/*
+857#true#tracker#Grapeshot#regexhost#(\.grapeshot\.co\.uk|\.gscontxt\.net)
+858#true#tracker#TidalTV#nreghost#*.tidaltv.com
+859#true#tracker#TidalTV#nreguri#*.tidaltv.tv/*
+860#true#ad#Inadco#nreghost#*.inadcoads.com
+861#true#ad#Rovion#nreghost#*.rovion.com
+862#true#ad#Traffiliate#nreghost#*.traffiliate.com
+863#true#tracker#Experian Marketing Services#regexhost#(\.audienceiq\.com|\.techlightenment\.com)
+864#true#analytics#Nurago#nreghost#*.sensic.net
+865#true#analytics#Degaa Analytics#nreghost#*.degaa.net
+866#true#tracker#UberTags#nreghost#*app.ubertags.com
+867#true#tracker#Listrak#nreghost#*.listrakbi.com
+868#true#tracker#Listrak#nreghost#*st.listrak.com
+869#true#ad#Ad Decisive#nreghost#*.a2dfp.net
+870#true#ad#Ad Dynamo#nreguri#*.addynamo.net/ad/*
+871#true#ad#iEntry#nreghost#*.600z.com
+872#true#tracker#Qubit Opentag#regexuri#\/opentag\-(.*)\.js
+873#true#ad#AdSolution#nreghost#*.ltassrv.com
+874#true#ad#Adfunky#nreghost#*ad.adfunky.com
+875#true#ad#Adfunky#nreghost#*.adfunkyserver.com
+876#true#widget#PunchTab#nreghost#*.punchtab.com
+877#true#analytics#Hit-Parade#nreguri#*.hit-parade.com/log*
+878#true#ad#GestionPub#nreghost#*.gestionpub.com
+879#true#analytics#Gaug.es#nreguri#*.gaug.es/track*
+880#true#widget#Browser Update#nreguri#*browser-update.org/update.js*
+881#true#ad#iprom#nreghost#*.iprom.net
+882#true#ad#iprom#nreghost#*.mediaiprom.com
+883#true#ad#iprom#nreghost#*.centraliprom.com
+884#true#ad#httppool#regexhost#(\.httpool\.com|\.toboads\.com)
+885#true#analytics#LineZing#nreghost#*.tongji.linezing.com
+886#true#widget#McAfee Secure#nreguri#*images.scanalert.com/meter/*
+887#true#ad#zaparena#regexuri#\.zap(arena|united)\.com\/w\/
+888#true#ad#ReachLocal#nreghost#*ad.reachlocal.com
+889#true#ad#ReachLocal#nreghost#*.rlcdn.net
+890#true#analytics#Observer#nreguri#*.observerapp.com/record*
+891#true#analytics#Gravity Insights#regexhost#(\.gravity\.com|\.grvcdn\.com)
+892#true#widget#ActivEngage#nreghost#*go.activengage.com
+893#true#analytics#Bubblestat#nreghost#*in.bubblestat.com
+894#true#ad#Advert Stream#regexhost#(ad\.advertstream\.com|\.sspcash\.com)
+895#true#widget#Free PageRank#nreghost#*.free-pagerank.com
+896#true#widget#Free PageRank#nreghost#*.atoomic.com
+897#true#ad#MaxBounty#nreguri#*.mb01.com/getimage.asp*
+898#true#ad#AdClickMedia#nreghost#*adclickmedia.com
+899#true#ad#Infra-Ad#nreghost#*.infra-ad.com
+900#true#analytics#Eulerian#nreghost#*.eulerian.net
+901#true#analytics#Eulerian#regexuri#eulerian.*\/ea\.js
+902#true#ad#Vdopia#nreghost#*.vdopia.com
+903#true#widget#Intercom#nreguri#*api.intercom.io/api/js/library.js*
+904#true#ad#AdNetwork.net#nreghost#*ad.adnetwork.net
+905#true#ad#cXense#nreghost#*.cxense.com
+906#true#tracker#The Search Agency#nreguri#*thesearchagency.net/tsawaypoint.php*
+907#true#tracker#The Search Agency#regexuri#\.thesearchagency\.net\/(.*)\/tsaapi\.js
+908#true#analytics#Mongoose Metrics#nreghost#*.mongoosemetrics.com
+909#true#tracker#FeedPerfect#nreghost#*tracking.feedperfect.com
+910#true#privacy#AOL OBA Notice#nreguri#*o.aolcdn.com/os/ads/adchoices.png*
+911#true#ad#AvantLink#nreghost#*.avantlink.com
+912#true#ad#AdOn Network#regexhost#\.(adfeedstrk|adcde|addlvr|adtrgt|bannertgt|cptgt|cpvfeed|cpvtgt|mygeek|popcde|sdfje|urtbk)\.com
+913#true#tracker#Webclicktracker#nreghost#*.webclicktracker.com
+914#true#tracker#AppMetrx#nreghost#*.appmetrx.com
+915#true#tracker#ClickDimensions#nreghost#*analytics.clickdimensions.com
+916#true#tracker#MerchantAdvantage#nreghost#*.merchantadvantage.com
+917#true#widget#Oracle Live Help#nreghost#*.instantservice.com
+918#true#widget#Oracle Live Help#nreguri#*/instantinvite3.js*
+919#true#widget#Oracle Live Help#nreghost#*ts.istrack.com
+920#true#privacy#Chitika Notice#nreguri#*scripts.chitika.net/static/images/adchoices.png*
+921#true#tracker#Communicator Corp#nreguri#*.communicatorcorp.com/public/scripts/conversiontracking.js*
+922#true#tracker#MailChimp Tracking#nreguri#*.list-manage.com/track/*
+923#true#tracker#MailChimp Tracking#regexuri#\.list-manage[1-9]\.com\/track\/
+924#true#tracker#Mobile Meteor#nreguri#*mobilemeteor.com/js/check.js*
+925#true#tracker#Mobile Meteor#nreguri#*showmeinn.com/_js/mobile.js*
+926#true#analytics#Dataium#nreghost#*.collserve.com
+927#true#analytics#News Registry#nreguri#*analytics.apnewsregistry.com/analytics/*
+928#true#tracker#Convert Platform#nreghost#*.convertglobal.com
+929#true#tracker#Convert Platform#nreghost#*convertglobal.s3.amazonaws.com
+930#true#tracker#Convert Platform#nreghost#*dnhgz729v27ca.cloudfront.net
+931#true#analytics#SingleFeed#nreghost#*reporting.singlefeed.com
+932#true#tracker#CoreMotives#nreghost#*.coremotives.com
+933#true#analytics#Motigo Webstats#nreghost#*webstats.motigo.com
+934#true#analytics#Motigo Webstats#nreghost#*.nedstatbasic.net
+935#true#ad#Yieldlab#nreghost#*ad.yieldlab.net
+936#true#ad#Shopzilla#nreghost#*adserve.shopzilla.com
+937#true#ad#Adverline#nreguri#*adnext.fr/*
+938#true#ad#adzly#nreguri#*adzly.com/adserve*
+939#true#ad#EngineSeeker#nreghost#*.engineseeker.com
+940#true#widget#SocialRMS#nreghost#*.ratevoice.com
+941#true#tracker#eTrigue#nreghost#*.etrigue.com
+942#true#tracker#Barilliance#nreghost#*dn3y71tq7jf07.cloudfront.net
+943#true#tracker#Barilliance#nreguri#*s3.amazonaws.com/cdn.barilliance.com*
+944#true#ad#Intergi#nreghost#*ads.intergi.com
+945#true#tracker#iProspect#nreghost#*.clickmanage.com
+946#true#analytics#NextSTAT#nreghost#*.nextstat.com
+947#true#tracker#TraceMyIP#regexuri#\.(tracemyip\.org|ipnoid\.com)\/tracker\/
+948#true#widget#Attracta#nreguri#*cdn.attracta.com/badge/*
+949#true#ad#Clickwinks#nreghost#*.clickwinks.com
+950#true#widget#TurnTo#nreghost#*.turnto.com
+951#true#ad#ClickBank ProAds#nreghost#*.cbproads.com
+952#true#tracker#ActiveMeter#nreghost#*.activemeter.com
+953#true#analytics#WOW Analytics#nreghost#*.wowanalytics.co.uk
+954#true#ad#AfterDownload#regexhost#(\.afdads\.com|\.addelive\.com)
+955#true#ad#PopAds#nreghost#*.popads.net
+956#true#ad#PopAds#nreghost#*popadscdn.net
+957#true#ad#adMOST#nreghost#*run.admost.com
+958#true#tracker#ROI trax#regexuri#(\.trk\.sodoit\.com\/rts|\.roitrax\.com)
+959#true#widget#OneTrueFan#nreguri#*e.onetruefan.com/js/widget.js*
+960#true#analytics#Branica#nreghost#*.branica.com
+961#true#widget#Buffer Button#nreguri#*bufferapp.com/js/button*
+962#true#ad#BuzzParadise#nreghost#*.buzzparadise.com
+963#true#widget#Slice Factory#nreghost#*builder.extensionfactory.com
+964#true#widget#Contact At Once!#nreghost#*.contactatonce.com
+965#true#ad#Simply#nreghost#*.simply.com
+966#true#ad#Page Peel Ads#nreguri#*/pagepeelads/pagepeelads.js*
+967#true#ad#Sociomantic#nreghost#*sonar.sociomantic.com
+968#true#ad#Reklamport#nreghost#*ad.reklamport.com
+969#true#analytics#Inspectlet#nreghost#*.inspectlet.com
+970#true#ad#LinkZ#nreguri#*.linkz.net/linkz/linkz.js*
+971#true#ad#adhood#nreguri#*.adhood.com/adserver/ad*
+972#true#analytics#adhood Analytics#nreguri#*an.adhood.com/an.*
+973#true#ad#MedyaNet#nreghost#*.e-kolay.net
+974#true#ad#AdCloud#nreghost#*.adcloud.net
+975#true#ad#Clove Network#regexhost#(ad|ads)\.clovenetwork\.com
+976#true#analytics#GoStats#nreghost#*gostats.com
+977#true#ad#ReklamZ#nreghost#*delivery.reklamz.com
+978#true#ad#SiteScout#nreghost#*.sitescout.com
+979#true#ad#Ambient Digital#regexuri#(\.adnetwork\.vn\/|\.adnetwork\.net\.vn)
+980#true#ad#Ambient Digital#nreguri#*.ambientplatform.vn/*
+981#true#ad#AdMicro#nreguri#*.admicro.vn/*
+982#true#ad#AdMicro#nreguri#*.vcmedia.vn/ads*
+983#true#ad#Ad Butler#nreghost#*adbutler
+984#true#ad#Axill#nreghost#*ad.globe7.com
+985#true#ad#GlobalTakeoff#nreghost#*ad.globaltakeoff.net
+986#true#ad#MediaShakers#nreghost#*ad.media-servers.net
+987#true#tracker#AWeber#nreghost#*.aweber.com
+988#true#widget#Pinterest#regexuri#(assets\.pinterest\.com|d3io1k5o0zdpqr\.cloudfront\.net)\/js\/pinit\.js
+989#true#widget#Pinterest#regexuri#\.pinterest\.com\/images\/(pidgets\/pin_it_button\.png|follow-on-pinterest-button\.png|pinext\.png|pinterest-button\.png|about\/buttons\/pinterest-button\.png)
+990#true#widget#Pinterest#nreghost#*api.pinterest.com
+991#true#widget#Mail.Ru Group#regexuri#connect\.mail\.ru\/(js\/loader\.js|share)
+992#true#widget#Mail.Ru Group#regexuri#(stg\.odnoklassniki\.ru\/share\/odkl_share\.js|connect\.ok\.ru)
+993#true#analytics#Onlinewebstat#nreghost#*.onlinewebstats.com
+994#true#ad#Ad Spirit#regexuri#\.adspirit\.(de|net)\/
+995#true#ad#AdF.ly#regexuri#adf\.ly\/js\/(entry|link)
+996#true#ad#AdF.ly#nreguri#*adf.ly/conv*
+997#true#ad#Virgul#nreghost#*.virgul.com
+998#true#ad#Adpersia#nreghost#*adpersia.com
+999#true#ad#GSI Media#nreghost#*media.gsimedia.net
+1000#true#analytics#GB-World#nreguri#*js.gb-world.net/lib/ga_social_tracking.js*
+1001#true#privacy#Quantcast Notice#nreguri#*.quantserve.com/adchoices/*
+1002#true#ad#Jink#nreguri#*campaign.jink.de/*
+1003#true#ad#Jink#nreghost#*ads.jinkads.com
+1004#true#widget#ThingLink#nreguri#*.thinglink.com/jse/embed.js*
+1005#true#widget#BigDoor#nreghost#*js.bigdoor.com
+1006#true#privacy#Dotomi Notice#nreguri#*.dotomi.com/adinfo/adinfo.php*
+1007#true#ad#BittAds#nreghost#*server.bittads.com
+1008#true#ad#Reklam Store#nreghost#*.reklamstore.com
+1009#true#analytics#BelStat#regexuri#\.belstat\.(com|be|de|fr|nl)\/regstat
+1010#true#ad#TLV Media#regexhost#(ad|ads|tag)\.tlvmedia\.com
+1011#true#widget#Bitcoin Miner#nreguri#*bitcoinplus.com/js/miner.js*
+1012#true#ad#Twyn#nreghost#*.twyn.com
+1013#true#ad#Adwit#nreghost#*ads.adwitserver.com
+1014#true#tracker#ResponseTap#regexhost#(\.adinsight\.eu|\.adinsight\.com|\.responsetap\.com)
+1015#true#analytics#LeadFormix#nreghost#*vlog.leadformix.com
+1016#true#tracker#xplosion#nreguri#*.xplosion.de/*
+1017#true#ad#Improve Digital#nreghost#*ad.360yield.com
+1018#true#ad#ON | AD#nreguri#*ad.onad.eu/*
+1019#true#ad#RevenueMax#nreguri#*.revenuemax.de/*
+1020#true#ad#Beacon Ad Network#nreguri#*.beaconads.com/ac/*
+1021#true#ad#Merchenta#nreghost#*.merchenta.com
+1022#true#privacy#CookieQ#regexuri#cookieq\.com\/(scripts|cookieq)
+1023#true#privacy#Fetchback Notice#nreguri#*imp.fetchback.com/serve/fb/overlay*
+1024#true#analytics#MyCounter.ua#regexhost#(\.mycounter\.ua|\.mycounter\.com\.ua)
+1025#true#tracker#ClickAider#nreghost#*hit.clickaider.com
+1026#true#analytics#WysiStat#nreghost#*.wysistat.com
+1027#true#analytics#Kenshoo#nreghost#*.xg4ken.com
+1028#true#ad#AdAction#regexhost#(\.adaction\.se|de17a\.com)
+1029#true#tracker#Conversive#nreguri#*ant.conversive.nl/*
+1030#true#ad#Al Bawaba Advertising#nreghost#*ads.albawaba.com
+1031#true#ad#AdServerPub#nreghost#*.adserverpub.com
+1032#true#widget#Flattr Button#regexuri#api\.flattr\.com\/(.*)\/load\.js
+1033#true#tracker#dotMailer#nreghost#*.trackedlink.net
+1034#true#tracker#Facebook Conversion Tracking#nreguri#*.facebook.com/js/conversions/tracking.js*
+1035#true#tracker#Facebook Conversion Tracking#regexuri#\.facebook\.com\/(email_open_log_pic|offsite_event)\.php
+1036#true#tracker#Vertical Leap#nreghost#*roi.vertical-leap.co.uk
+1037#true#ad#AdMob#regexuri#(mm|mmv|p|a)\.admob\.com\/
+1038#true#widget#Asterpix SearchLight#nreguri#*web.asterpix.com/media/js/*
+1039#true#widget#Swoop#regexuri#\.(shopximity|swoop)\.com\/js\/spxw\.js
+1040#true#widget#LinksAlpha#nreguri#*.linksalpha.com/social*
+1041#true#ad#GittiGidiyor Affiliate Program#nreguri#*aff3.gittigidiyor.com/affiliate_front.js*
+1042#true#ad#Sonobi Media#regexhost#(go|ads)\.sonobi\.com
+1043#true#ad#Vemba#nreghost#*.vemba.com
+1044#true#ad#Intermarkets#nreghost#*.intermarkets.net
+1045#true#widget#NK.pl Widgets#regexuri#nk\.pl\/(script|img)\/nk_widgets
+1046#true#widget#NK.pl Widgets#nreguri#*nk.pl/card/js*
+1047#true#analytics#WebProspector#nreguri#*.webprospector.de/*
+1048#true#widget#Facebook Social Graph#nreghost#*graph.facebook.com
+1049#true#widget#Facebook Social Graph#nreguri#*api.facebook.com/method/fql.query*
+1050#true#ad#Kauli#nreguri#*.kau.li/*
+1051#true#ad#adingo#nreguri#*.adingo.jp/*
+1052#true#ad#adingo#nreghost#*.adingo.jp.eimg.jp
+1053#true#ad#ConvertMedia#nreghost#*.admailtiser.com
+1054#true#ad#Clickbooth#regexhost#(\.clickbooth\.com|\.adtoll\.com)
+1055#true#ad#Clickbooth#nreghost#*clickboothlnk.com
+1056#true#tracker#SexTracker#nreghost#*.sextracker.com
+1057#true#ad#OMG#nreghost#*.omgpm.com
+1058#true#widget#Slashdot Widget#nreguri#*slashdot.org/slashdot-it.pl*
+1059#true#ad#AdvertPro#nreguri#*/advertpro/servlet/view/*
+1060#true#tracker#Valued Opinions#nreghost#*.valuedopinions.co.uk
+1061#true#ad#BlogBang#nreghost#*.blogbang.com
+1062#true#analytics#Segment.io#regexhost#(\.segment\.io|d2dq2ahtl5zl1z\.cloudfront\.net|d47xnnr8b1rki\.cloudfront\.net)
+1063#true#tracker#Proclivity#nreghost#*.pswec.com
+1064#true#ad#adk2#nreghost#*.adk2.com
+1065#true#privacy#Tribal Fusion Notice#nreguri#*.tribalfusion.com/media/common/adchoice*
+1066#true#widget#TurnSocial#nreguri#*turnsocial.com/bar/*
+1067#true#ad#TapIt!#nreguri#*d2bgg7rjywcwsy.cloudfront.net/js/*
+1068#true#tracker#PressLabs#nreguri#*.plssl.com/pl-xauth.php*
+1069#true#ad#Innity#nreghost#*.innity.com
+1070#true#tracker#Knowledge Networks#nreghost#*api.dimestore.com
+1071#true#tracker#Adloox#nreghost#*.adlooxtracking.com
+1072#true#widget#ChannelFinder#nreguri#*.channelfinder.net/js/embed_cf*
+1073#true#widget#CivicScience#nreguri#*.civicscience.com/widget/jspoll*
+1074#true#ad#BBelements#regexuri#\.(bbelements\.com|bbmedia\.cz|mediainter\.net)\/
+1075#true#widget#Crowd Ignite#nreguri#*widget.crowdignite.com/widgets*
+1076#true#tracker#MaxMind#regexuri#j\.maxmind\.com\/app\/(geoip|country)\.js
+1077#true#ad#clixGalore#nreghost#*www.is1.clixgalore.com
+1078#true#widget#UserReport#regexhost#(sdscdn\.userreport|sdsbucket\.s3\.amazonaws)\.com
+1079#true#widget#Taboola#regexhost#(\.taboolasyndication\.com|trc\.taboola\.com)
+1080#true#ad#advmaker.ru#nreguri#*am10.ru/code*
+1081#true#analytics#IceRocket Tracker#nreguri#*tracker.icerocket.com/services/collector.js*
+1082#true#ad#ad6media#regexhost#\.ad6media\.(fr|es|co\.uk|com)
+1083#true#ad#ad6media#nreguri#*.ad6.fr/*
+1084#true#analytics#GoingUp#nreghost#*counter.goingup.com
+1085#true#ad#YieldAds#nreghost#*ad.yieldads.com
+1086#true#ad#Adhese#regexuri#\.adhese\.(net|com|be)\/
+1087#true#ad#Testnet#nreguri#*.testnet.be/*
+1088#true#ad#Adverteerdirect#nreguri#*ad.adverteerdirect.nl/*
+1089#true#ad#Partner-Ads#nreghost#*.partner-ads.com
+1090#true#ad#Open AdExchange#nreguri#*.openadex.dk/*
+1091#true#ad#Advantage Media#nreguri#*ad.advantagemedia.dk/*
+1092#true#ad#Adservice Media#nreguri#*online.adservicemedia.dk/*
+1093#true#ad#Euroads#regexuri#\.euroads\.(no|dk|fi)\/
+1094#true#tracker#Siteimprove#nreguri#*.siteimprove.com/js/*
+1095#true#analytics#Livecounter#nreguri#*.livecounter.dk/counter*
+1096#true#ad#Targetix#nreghost#*ads.targetix.net
+1097#true#ad#Centro#nreghost#*.brand-server.com
+1098#true#widget#Hyves Widgets#nreguri#*.hyves.nl/respect/button*
+1099#true#widget#Hyves Widgets#nreguri#*.hyves.nl/precompiled/hyvesconnect.js*
+1100#true#ad#GoDaddy Affiliate Program#nreghost#*affiliate.godaddy.com
+1101#true#ad#gamerDNA#nreghost#*.gamerdna.com
+1102#true#widget#Share42#nreguri#*/share42/share42.js*
+1103#true#widget#Bazaarvoice#regexhost#(\.ugc\.bazaarvoice\.com|\.powerreviews\.com)
+1104#true#widget#Bazaarvoice#nreguri#*/bazaarvoice.js*
+1105#true#ad#Batanga Network#nreghost#*.batanga.com
+1106#true#ad#Impresiones Web#nreghost#*.impresionesweb.com
+1107#true#ad#Harren Media#nreghost#*ad.harrenmedianetwork.com
+1108#true#widget#Infusionsoft#nreguri#*.infusionsoft.com/app*
+1109#true#ad#Total Media#nreghost#*i.total-media.net
+1110#true#widget#Revolver Maps#nreghost#*.revolvermaps.com
+1111#true#widget#Strands Recommender#nreghost#*bizsolutions.strands.com
+1112#true#tracker#Errorception#nreghost#*d15qhc0lu1ghnk.cloudfront.net
+1113#true#tracker#Errorception#regexuri#errorception\.com\/projects\/.*\/beacon\.js
+1114#true#tracker#Sailthru Horizon#nreghost#*.sail-horizon.com
+1115#true#tracker#Moonray Autopilot#nreghost#*.moon-ray.com
+1116#true#tracker#Moonray Autopilot#nreguri#*moonraymarketing.com/tracking.js*
+1117#true#analytics#Enecto Analytics#regexhost#(\.enectoanalytics\.com|trk\.enecto\.com)
+1118#true#ad#Adult Webmaster Empire#regexhost#(creatives\.livejasmin\.com|\.awempire\.com)
+1119#true#ad#Medley#nreghost#*medleyads.com
+1120#true#tracker#Viacom Tag Container#nreghost#*btg.mtvnservices.com
+1121#true#tracker#SUP media#nreghost#*cnt.sup.com
+1122#true#ad#TBN.ru#nreguri#*.tbn.ru/*
+1123#true#ad#eBuzzing#nreghost#*.ebuzzing.com
+1124#true#ad#Ligatus#nreghost#*.ligatus.com
+1125#true#ad#Sanoma#regexuri#(admp|analytics)\.sanoma\.fi\/
+1126#true#tracker#WhosOn#nreghost#*.whoson.com
+1127#true#ad#AddyON#nreghost#*.addyon.com
+1128#true#ad#Adkontekst#nreguri#*adsearch.adkontekst.pl/*
+1129#true#ad#Adoperator#nreghost#*.adoperator.com
+1130#true#ad#AdTaily#regexuri#\.adtaily\.(com|pl\/)
+1131#true#tracker#Adtraction#nreghost#*track.adtraction.com
+1132#true#ad#Affiliate Window#nreghost#*.awin1.com
+1133#true#ad#comOn Group#nreghost#*ads.elementodigital.org
+1134#true#ad#CPMProfit#nreghost#*.cpmprofit.com
+1135#true#ad#Double.net#nreghost#*.double.net
+1136#true#ad#eADV#nreguri#*.eadv.it/*
+1137#true#ad#Aruba Media Marketing#nreguri#*.arubamediamarketing.it/*
+1138#true#ad#Etarget#nreghost#*.etargetnet.com
+1139#true#tracker#Fonecta#nreguri#*.kavijaseuranta.fi/*
+1140#true#ad#JuiceADV#nreghost#*.juiceadv.com
+1141#true#tracker#Klaustech#nreghost#*.adcastplus.net
+1142#true#widget#Leiki#nreghost#*.leiki.com
+1143#true#analytics#MyStat#nreguri#*stat.mystat.hu/*
+1144#true#ad#Neodata#nreghost#*.neodatagroup.com
+1145#true#ad#NetAffiliation#regexhost#(\.netaffiliation\.com|\.metaffiliation\.com)
+1146#true#ad#PayClick#nreguri#*.payclick.it/*
+1147#true#ad#Pirchio#nreghost#*.pirchio.com
+1148#true#ad#Pubdirecte#nreghost#*.pubdirecte.com
+1149#true#ad#Publicidad.net#nreghost#*.publicidad.net
+1150#true#tracker#Questback#nreguri#*.easyresearch.se/*
+1151#true#ad#SmartContext#nreguri#*.smartcontext.pl/*
+1152#true#analytics#Stat24#nreghost#*hit.stat24.com
+1153#true#ad#Trafikknett#nreghost#*.trafikknett.com
+1154#true#widget#Userneeds#nreguri#*.userneeds.dk/*
+1155#true#analytics#Vizzit#nreguri#*.vizzit.se/vizzittag/*
+1156#true#tracker#Web Service Award#nreguri#*ssl.webserviceaward.com/wsc/*
+1157#true#tracker#Vertical Network#nreguri#*.verticalnetwork.de/*
+1158#true#tracker#Adrolays#nreguri#*.adrolays.de/*
+1159#true#tracker#Unister#nreghost#*.unister-adservices.com
+1160#true#tracker#Unister#nreguri#*analytics.unister-gmbh.de/*
+1161#true#tracker#Unister#nreguri#*analytics-static.unister-gmbh.de/*
+1162#true#tracker#Eyeconomy#nreghost#*.sublimemedia.net
+1163#true#ad#freeXmedia#nreguri#*adserver.freenet.de/*
+1164#true#tracker#Impulse#nreghost#*.254a.com
+1165#true#widget#Repost.us#nreguri#*.rp-api.com/rjs/repost*
+1166#true#ad#Foodie Blogroll#regexhost#(ads|widget)\.foodieblogroll\.com
+1167#true#tracker#Digital River#regexhost#(track\.digitalriver\.com|\.directtrack\.com|\.onenetworkdirect\.net)
+1168#true#ad#AdsenseCamp#nreguri#*adsensecamp.com/show/*
+1169#true#ad#Wiget Media#nreghost#*wigetmedia.com
+1170#true#widget#diHITT Badge#nreguri#*widget.dihitt.com.br/*
+1171#true#ad#Scripps Networks#nreghost#*adsremote.scrippsnetworks.com
+1172#true#widget#Zippyshare Widget#nreguri#*api.zippyshare.com/api/embed*
+1173#true#widget#Foursquare Widget#nreguri#*platform.foursquare.com/js/widgets.js*
+1174#true#widget#Personyze#nreghost#*counter.personyze.com
+1175#true#tracker#JumpTime#regexhost#(\.jump\-time\.net|\.jumptime\.com)
+1176#true#ad#Resonate Networks#nreghost#*.reson8.com
+1177#true#widget#Gigya Socialize#nreguri#*.gigya.com/js/socialize.js*
+1178#true#ad#AffiliateLounge#nreghost#*.affiliatelounge.com
+1179#true#ad#ADMAN#nreguri#*.adman.gr/*
+1180#true#ad#ADMAN#nreghost#*adman.in.gr
+1181#true#ad#AdMarvel#nreghost#*ads.admarvel.com
+1182#true#ad#Audience Ad Network#nreghost#*.qwobl.net
+1183#true#widget#apptap#regexhost#(api|widget)\.apptap\.com
+1184#true#tracker#Shop2market#nreghost#*.shop2market.com
+1185#true#ad#HookLogic#nreghost#*.hlserve.com
+1186#true#tracker#Torbit#nreghost#*insight.torbit.com
+1187#true#ad#Avazu Network#nreghost#*ads.avazu.net
+1188#true#analytics#Rich#regexhost#(\.richmetrics\.com|d3q6px0y2suh5n\.cloudfront\.net|rich\-agent\.s3\.amazonaws\.com)
+1189#true#widget#Provide Support#regexhost#(image|secure)\.providesupport\.com
+1190#true#tracker#ThreatMetrix#nreguri#*.online-metrix.net/fp*
+1191#true#ad#InfluAds#nreghost#*engine.influads.com
+1192#true#privacy#iubenda#nreguri#*.iubenda.com/iubenda.js*
+1193#true#widget#Salesforce Live Agent#nreghost#*.liveagentforsalesforce.com
+1194#true#ad#Hype Exchange#nreghost#*.hypeads.org
+1195#true#ad#RevenueHits#regexhost#(clkads\.com|clkrev\.com|clkmon\.com)
+1196#true#ad#Adzerk#nreghost#*.adzerk.net
+1197#true#widget#Spotify Embed#nreghost#*embed.spotify.com
+1198#true#widget#SoundCloud#nreguri#*w.soundcloud.com/player*
+1199#true#ad#PixFuture#nreghost#*.pixfuture.net
+1200#true#ad#TrafficJunky#nreghost#*ads.trafficjunky.net
+1201#true#ad#SexAdNetwork#nreghost#*.sexad.net
+1202#true#tracker#CQ Counter#nreguri#*.cqcounter.com/cgi-bin/c*
+1203#true#ad#Yepty#nreghost#*shuttle.yepty.com
+1204#true#ad#Yepty#nreghost#*shuttle.sharexy.com
+1205#true#tracker#ClarityRay#regexhost#(clarityray|djers|dutrus|eurts|fanefo|hfunt|hfutz|hinsm|japum|jhame|jyaby|jyawd|kwobj|kyarm|lbein|ocyss|orpae|owpas|psyng|pturt|wredint)\.com
+1206#true#tracker#PredictiveIntent#nreghost#*.predictiveintent.com
+1207#true#tracker#HiConversion#nreghost#*.hiconversion.com
+1208#true#ad#TrafficHaus#nreghost#*.traffichaus.com
+1209#true#ad#BrandReach#nreghost#*.brandreachsys.com
+1210#true#ad#Precision Health Media#nreghost#*.ghmedia.com
+1211#true#widget#Po.st#nreguri#*.po.st/*
+1212#true#ad#Mobile Theory#nreguri#*impel.mobiletheory.com/ad*
+1213#true#widget#BugHerd#regexuri#\.bugherd\.com\/(bugherd|sidebar)
+1214#true#tracker#Yieldbot#regexhost#(\.yldbt\.com|\.yb0t\.com)
+1215#true#ad#Alphabird#regexhost#(\.alphabirdnetwork\.com|\.alphabird\.com)
+1216#true#analytics#Movable Media#nreguri#*.mvb.me/*
+1217#true#ad#Jetpack Digital#regexhost#(ads|media)\.jetpackdigital\.com
+1218#true#ad#ReferLocal#nreghost#*ads.referlocal.com
+1219#true#tracker#Buzzdeck#regexhost#(\.buzzdeck\.com|pixel\.buzzdeck)
+1220#true#widget#Press+#regexhost#\.ppjol\.(net|com)
+1221#true#ad#Komoona#nreghost#*.komoona.com
+1222#true#widget#Freshdesk#nreguri#*.freshdesk.com/widget/freshwidget.js*
+1223#true#widget#Feedbackify#regexuri#(fby\.s3\.amazonaws\.com\/fby\.js|\.feedbackify\.com\/f\.js)
+1224#true#widget#Reddit#regexuri#\.reddit\.com\/(static\/spreddit|static\/button|buttonlite\.js|\.embed)
+1225#true#tracker#geoPlugin#nreghost#*.geoplugin.net
+1226#true#tracker#Exceptional#nreguri#*js.exceptional.io/exceptional.js*
+1227#true#tracker#Exceptional#nreguri#*exceptional-js.heroku.com/exceptional.js*
+1228#true#ad#Clickochet#nreghost#*ad1.clickochet.com
+1229#true#ad#KlikSaya#nreghost#*scr.kliksaya.com
+1230#true#analytics#Gigya Social Analytics#regexuri#(analytics\.gigyahosting1\.com\/gigya\-analytics\.js|\.gigya\.com\/js\/gigyagaintegration\.js)
+1231#true#analytics#Geovisite#nreghost#*.geovisite.com
+1232#true#tracker#MetriWeb#regexuri#\/metriweb\/mwtag|\.metriweb\.be\/dyn\/
+1233#true#ad#GoodADVERT#nreguri#*.goodadvert.ru/*
+1234#true#analytics#WebTracker#nreguri#*t.webtracker.jp/*
+1235#true#widget#GetGlue#nreghost#*widgets.getglue.com
+1236#true#ad#Yandex.Direct#regexuri#an\.yandex\.ru\/(system|resource)\/context\.js
+1237#true#ad#Yandex.Direct#regexuri#(an|bs)\.yandex\.ru\/code\/
+1238#true#tracker#Cerberus Speed-Trap#nreguri#*.speed-trap.nl/*
+1239#true#tracker#Cerberus Speed-Trap#regexhost#speedtrap\.(.*)\.com
+1240#true#ad#PrecisionDemand#nreghost#*.lucidcommerce.com
+1241#true#ad#FeatureLink#nreghost#*.featurelink.com
+1242#true#analytics#Scout Analytics#nreghost#*scout.scoutanalytics.net
+1243#true#ad#Break Media#nreghost#*apex-ad.com
+1244#true#ad#Direct/ADVERT#nreguri#*.directadvert.ru/*
+1245#true#ad#ADNETWORK.PRO#nreguri#*.adnetwork.pro/*
+1246#true#analytics#PublishFlow#regexuri#(s3\.amazonaws\.com\/publishflow|data\.publishflow\.com)
+1247#true#ad#Magnetise Group#nreghost#*.magnetisemedia.com
+1248#true#ad#Adnet#nreguri#*.adnet.vn/*
+1249#true#tracker#Totango#regexuri#s3\.amazonaws\.com\/(saaspulse|totango)-cdn\/
+1250#true#ad#Matomy Market#nreghost#*.adsmarket.com
+1251#true#ad#InviziAds#nreghost#*.inviziads.com
+1252#true#ad#Adcash#nreghost#*.adcash.com
+1253#true#tracker#Varick Media Management#nreghost#*.vmmpxl.com
+1254#true#tracker#nPario#nreghost#*.npario-inc.net
+1255#true#widget#nRelate#nreghost#*.nrelate.com
+1256#true#widget#ZergNet#nreguri#*.zergnet.com/zerg.js*
+1257#true#ad#WebTrends Ads#nreghost#*rd.clickshift.com
+1258#true#tracker#HotTraffic#nreghost#*beacons.hottraffic.nl
+1259#true#ad#Banner Connect#nreghost#*.bannerconnect.net
+1260#true#tracker#SalesFUSION#nreghost#*.msgapp.com
+1261#true#tracker#New York Times#nreghost#*up.nytimes.com
+1262#true#ad#SaleCycle#nreghost#*app.salecycle.com
+1263#true#ad#PlugRush#nreghost#*.plugrush.com
+1264#true#tracker#XYZtraffic#nreghost#*.xyztraffic.com
+1265#true#ad#Adverticum#nreghost#*.adverticum.net
+1266#true#ad#Adverticum#nreguri#*ad.hu/g3.js*
+1267#true#ad#Creafi#nreghost#*.creafi-online-media.com
+1268#true#ad#CTnetwork#nreguri#*.ctnetwork.hu/*
+1269#true#tracker#FruitFlan#regexhost#(\.fruitflan\.com|\.adflan\.com)
+1270#true#tracker#MCOnet#nreghost#*.mconet.biz
+1271#true#ad#Simple AdServer#regexhost#simpleadserver\.(net|org)
+1272#true#analytics#Long Tail Magic#regexuri#\/analytics\/(aratc\.js|pixel\.gif)
+1273#true#ad#Epic Game Ads#nreguri#*.epicgameads.com/ads/*
+1274#true#ad#StrikeAd#nreghost#*rtb.strikead.com
+1275#true#widget#Gigya Toolbar#nreghost#*toolbar.cdn.gigya.com
+1276#true#tracker#VisitorTrack#nreghost#*.visitortracklog.com
+1277#true#tracker#Euroweb Counter#nreghost#*tracker.euroweb.net
+1278#true#ad#JuggCash#nreghost#*.contentabc.com
+1279#true#ad#JuggCash#nreghost#*ads.mofos.com
+1280#true#ad#LifeStreet Media#nreghost#*.lfstmedia.com
+1281#true#ad#Mediawhiz#regexhost#\.adnetinteractive\.(com|net)
+1282#true#ad#Yabuka#nreghost#*.yabuka.com
+1283#true#ad#Copacet#nreghost#*.copacet.com
+1284#true#widget#Flag Counter#nreguri#*flagcounter.com/count/*
+1285#true#widget#Typekit by Adobe#regexhost#\.typekit\.(net|com)
+1286#true#widget#Kontactor#nreghost#*.kontactor.com
+1287#true#analytics#Yola Analytics#regexhost#(analytics|pixel)\.yola\.net
+1288#true#tracker#LeadForensics#nreghost#*.leadforensics.com
+1289#true#tracker#LeadForensics#regexuri#(click-to-trace\.com\/js|cloud-exploration\.com\/js|cloud-journey\.com\/js|explore-123\.com\/js|lead-123\.com\/js|lead-watcher\.com\/js|path-follower\.com\/js|the-lead-tracker\.com\/js|trail-viewer\.com\/js|trailinvestigator\.com\/js)
+1290#true#tracker#LeadForensics#regexuri#(web-path\.com\/js|websiteexploration\.com\/js|www-path\.com\/js|domainanalytics\.net\/js|site-research\.net\/js|track-web\.net\/js|cloud-trail\.com\/js|discover-path\.com\/js|letterboxtrail\.com\/js|path-trail\.com\/js)
+1291#true#tracker#LeadForensics#regexuri#(scan-trail\.com\/js|trail-web\.com\/js|discovertrail\.net\/js|finger-info\.net\/js|trackdiscovery\.net\/js|trackercloud\.net\/js|trackinvestigate\.net\/js|trailbox\.net\/js)
+1292#true#analytics#eVisit Analyst#regexhost#(\.evisitanalyst\.com|evisitcs\.com|\.websiteperform\.com)
+1293#true#ad#smart4ads#nreguri#*.smart4ads.com/smart4ads*
+1294#true#ad#Adpv#nreghost#*ads.adpv.com
+1295#true#tracker#RSSPump#nreghost#*.rsspump.com
+1296#true#widget#Social Annex#nreghost#*.socialannex.com
+1297#true#ad#Experimently#regexhost#(dssja7qsifeak\.cloudfront\.net|tracking100\.com)
+1298#true#tracker#Next Jump Tracker#nreguri#*.nextjump.com/v1/cheetah/track*
+1299#true#ad#TechMediaNetwork#nreghost#*api.toptenreviews.com
+1300#true#ad#Kavanga#nreguri#*.kavanga.ru/*
+1301#true#ad#AdLabs#regexuri#(luxup\.ru\/|\.adlabs\.ru\/)
+1302#true#ad#B2Bvideo#nreguri#*b2bvideo.ru/*
+1303#true#tracker#AudienceFUEL#nreghost#*.audiencefuel.com
+1304#true#ad#Buzz Media#nreghost#*.buzzbytes.net
+1305#true#ad#AdExcite#nreguri#*adexcite.com/ads*
+1306#true#ad#Brandscreen#nreghost#*.rtbidder.net
+1307#true#ad#Affinity#nreghost#*.affinity.com
+1308#true#ad#Sekindo#nreghost#*.sekindo.com
+1309#true#tracker#Refined Labs#nreghost#*.refinedads.com
+1310#true#ad#Tapad#nreghost#*.tapad.com
+1311#true#ad#Operative Media#nreghost#*.adsummos.net
+1312#true#analytics#Mokono Analytics#regexhost#(mpn\-analytics|analytics\.mpn)\.mokonocdn\.com
+1313#true#analytics#Modernus#nreguri#*.teljari.is/*
+1314#true#ad#Banzai Advertising#nreguri#*.banzaiadv.it/*
+1315#true#ad#i2i.jp#regexuri#(\.i2idata\.com|\.i2i\.jp\/)
+1316#true#ad#AccessTrade#nreghost#*.accesstrade.net
+1317#true#ad#PolyAd#nreghost#*.polyad.net
+1318#true#analytics#51.La#nreguri#*.51.la/*
+1319#true#ad#WebAds#nreguri#*.webads.nl/*
+1320#true#ad#adgoal#nreguri#*js.smartredirect.de/js/*
+1321#true#analytics#Open Web Analytics#nreguri#*/owa.tracker-combined-min.js*
+1322#true#tracker#Responsys#nreghost#*.rsys4.net
+1323#true#ad#impAct#nreghost#*.impact-ad.jp
+1324#true#analytics#Webtraffic#regexuri#\.webtraffic\.(se|no)\/
+1325#true#widget#RadarStats#nreguri#*radarstats.com/js/widget.js*
+1326#true#tracker#Content.ad#nreguri#*.content.ad/*
+1327#true#tracker#SimpleReach#nreghost#*.simplereach.com
+1328#true#ad#ADAOS#nreghost#*.adaos-ads.net
+1329#true#tracker#Semasio#nreghost#*.semasio.net
+1330#true#ad#Rivity#nreghost#*.rvty.net
+1331#true#tracker#AffiMax#nreguri#*.affimax.de/*
+1332#true#ad#redvertisment#nreghost#*.redintelligence.net
+1333#true#ad#Alenty#nreghost#*.alenty.com
+1334#true#ad#Way2traffic#nreghost#*.way2traffic.com
+1335#true#widget#SuperCounters#nreghost#*.supercounters.com
+1336#true#tracker#Wikia Beacon#nreghost#*.wikia-beacon.com
+1337#true#tracker#AudienceRate#nreghost#*.12mlbe.com
+1338#true#analytics#BrightEdge#nreghost#*analytics.brightedge.com
+1339#true#widget#Tumblr Buttons#regexuri#platform\.tumblr\.com\/v1\/(share|follow_button\.html)
+1340#true#ad#Teroti#nreghost#*watch.teroti.com
+1341#true#tracker#WebEffective#nreghost#*webeffective.keynote.com
+1342#true#ad#Triton Digital#regexhost#(\.andomedia\.com|\.tritondigital\.com)
+1343#true#ad#MediaHub#nreghost#*.fhserve.com
+1344#true#analytics#Realtime#nreghost#*.webspectator.com
+1345#true#ad#C|ON|TEXT#nreghost#*.c-on-text.com
+1346#true#ad#Edgevertise#nreghost#*.edgevertise.com
+1347#true#ad#isocket#regexhost#(\.adsbyisocket\.com|\.isocket\.com)
+1348#true#tracker#Lengow#nreghost#*.lengow.com
+1349#true#tracker#iAdvize#nreghost#*.iadvize.com
+1350#true#ad#Jeetyet Media#nreghost#*edge.jeetyetmedia.com
+1351#true#tracker#Goooal#regexhost#(gooo\.al|gooal\.herokuapp\.com)
+1352#true#analytics#UserZoom#nreghost#*.userzoom.com
+1353#true#tracker#Smart Content#nreghost#*.getsmartcontent.com
+1354#true#widget#GitHub Ribbon#nreguri#*s3.amazonaws.com/github/ribbons*
+1355#true#widget#Webhelpje#regexuri#\.webhelpje\.(nl|be)\/
+1356#true#ad#Prisma Media Digital#nreghost#*ad.prismamediadigital.com
+1357#true#tracker#MouseTrace#nreghost#*s.mousetrace.com
+1358#true#ad#Crakmedia Network#regexhost#(ads\.crakmedia\.com|\.craktraffic\.com)
+1359#true#ad#Akavita#nreghost#*.akavita.com
+1360#true#ad#Adswizz#nreghost#*.adswizz.com
+1361#true#ad#AdHitz#nreghost#*adhitzads.com
+1362#true#ad#videoclick.ru#regexuri#\.(videoclick|videoclik)\.ru\/
+1363#true#ad#actionpay#regexuri#n\.(adonweb|actionpay)\.ru\/
+1364#true#tracker#rutarget#nreguri#*.rutarget.ru/*
+1365#true#tracker#DataPoint Media#nreghost#*.dpmsrv.com
+1366#true#ad#AdGent Digital#regexhost#(\.adgent007\.com|ads\.shorttail\.net)
+1367#true#ad#iogous#nreghost#*.iogous.com
+1368#true#tracker#Digital Forest#nreguri#*.tracer.jp/*
+1369#true#ad#eClick#nreguri#*.eclick.vn/*
+1370#true#ad#Ad360#nreguri#*.ad360.vn/*
+1371#true#ad#VietAd#nreguri#*.vietad.vn/*
+1372#true#ad#Admax#nreghost#*.admaxserver.com
+1373#true#tracker#Allyes#nreghost#*.allyes.com
+1374#true#tracker#MarkMonitor#nreghost#*.mmstat.com
+1375#true#ad#Adsame#nreghost#*.adsame.com
+1376#true#ad#Tanx#nreghost#*.tanx.com
+1377#true#ad#MediaV#nreghost#*.mediav.com
+1378#true#ad#AdSupply#regexhost#(\.4dsply\.com|\.trklnks\.com)
+1379#true#ad#RevenueMantra#nreghost#*.revenuemantra.com
+1380#true#ad#J-List Affiliate Program#regexuri#\.jlist\.com\/(media\/|ad\/|feed\.php)
+1381#true#analytics#ICStats#nreguri#*.icstats.nl/*
+1382#true#ad#Ozone Media#nreghost#*.ozonemedia.com
+1383#true#ad#Acuity Ads#nreghost#*.acuityplatform.com
+1384#true#ad#adXion#nreghost#*.adxion.com
+1385#true#tracker#Median#nreguri#*audit.median.hu/*
+1386#true#ad#Lomadee#nreghost#*.lomadee.com
+1387#true#widget#Chaordic#nreghost#*.chaordicsystems.com
+1388#true#ad#Ohana Advertising Network#nreghost#*.adohana.com
+1389#true#ad#dgMatix#nreghost#*.dgmatix.com
+1390#true#ad#Ad Magnet#regexhost#(\.admagnet\.net|\.amimg\.net)
+1391#true#ad#Komli ATOM#nreghost#*.atomex.net
+1392#true#ad#Vizury#nreghost#*.vizury.com
+1393#true#widget#LinkWithin#nreghost#*.linkwithin.com
+1394#true#tracker#ClickExperts#nreghost#*.clickexperts.net
+1395#true#ad#Publiclix#nreghost#*.publiclix.com
+1396#true#ad#MeaningTool#nreghost#*.meaningtool.com
+1397#true#ad#AdFrontiers#nreghost#*.adfrontiers.com
+1398#true#ad#Ezakus#nreghost#*.ezakus.net
+1399#true#tracker#Public Ideas#nreghost#*.publicidees.com
+1400#true#ad#Piximedia#nreghost#*.piximedia.com
+1401#true#ad#Synovite#nreghost#*.synovite-scripts.com
+1402#true#ad#Semilo#nreghost#*.semilo.com
+1403#true#ad#Weebly Ads#nreguri#*.weebly.com/weebly/apps/serveads*
+1404#true#tracker#Shopify Stats#nreghost#*stats.shopify.com
+1405#true#ad#AdClear#nreghost#*.adclear.net
+1406#true#ad#AdTraxx#nreguri#*.adtraxx.de/*
+1407#true#ad#adyard#nreguri#*.adyard.de/*
+1408#true#ad#Central Nervous#nreghost#*.centralnervous.net
+1409#true#ad#adru.net#nreghost#*.adru.net
+1410#true#ad#Medialand#nreguri#*.medialand.ru/*
+1411#true#ad#Mediagra#nreghost#*.mediagra.com
+1412#true#ad#ADGoto#nreghost#*.adgoto.com
+1413#true#ad#ADGoto#nreguri#*adedy.com/creatives*
+1414#true#ad#AdHands#nreguri#*.adhands.ru/*
+1415#true#ad#C8 Network#nreguri#*c8.net.ua/*
+1416#true#widget#Google Tag Manager#nreghost#*.googletagmanager.com
+1417#true#tracker#DiVa#nreguri#*stats.vertriebsassistent.de/*
+1418#true#ad#Martini Media#nreghost#*.martiniadnetwork.com
+1419#true#ad#Admaya#nreguri#*.admaya.in/*
+1420#true#ad#CentralTag#nreghost#*.centraltag.com
+1421#true#ad#ad4mat#regexuri#\.ad4mat\.(ar|at|be|bg|br|ch|co\.uk|cz|de|dk|es|fi|fr|gr|hu|it|mx|net|nl|no|pl|ro|ru|se|tr)\/
+1422#true#ad#intelliAd#regexuri#\.intelliad\.(com|de)\/
+1423#true#ad#TrafficBroker#nreghost#*.trafficbroker.com
+1424#true#ad#Drawbridge#nreghost#*.adsymptotic.com
+1425#true#ad#Game Advertising Online#nreghost#*.game-advertising-online.com
+1426#true#ad#Connexity#regexuri#(connexity\.net|\.cxt\.ms\/)
+1427#true#ad#Innovid#nreghost#*.innovid.com
+1428#true#tracker#Sokrati#nreghost#*.sokrati.com
+1429#true#tracker#Infinity Tracking#nreghost#*.infinity-tracking.net
+1430#true#ad#Yashi#nreghost#*.yashi.com
+1431#true#ad#Unruly Media#nreghost#*.unrulymedia.com
+1432#true#ad#Just Relevant#nreghost#*.justrelevant.com
+1433#true#ad#PowerLinks#nreghost#*.powerlinks.com
+1434#true#ad#iPromote#nreghost#*.ipromote.com
+1435#true#ad#CityAds#regexuri#(gameleads\.ru\/|cityads\.ru\/)
+1436#true#ad#imho vi#nreguri#*.vidigital.ru/*
+1437#true#ad#Adinch#nreghost#*.adinch.com
+1438#true#ad#admitad#nreghost#*.admitad.com
+1439#true#ad#Magna Advertise#nreguri#*.magna.ru/*
+1440#true#analytics#WebAntenna#nreguri#*tr.webantenna.info/*
+1441#true#ad#B2BContext#nreguri#*b2bcontext.ru/*
+1442#true#ad#AdEasy#nreguri#*.adeasy.ru/*
+1443#true#ad#Maxlab#nreguri#*.maxlab.ru/*
+1444#true#ad#ADmulti#nreghost#*.admulti.com
+1445#true#ad#Rich Media Banner Network#nreguri#*.rmbn.ru/*
+1446#true#ad#AdMaster#nreghost#*.admaster.net
+1447#true#ad#Recreativ#nreguri#*recreativ.ru/*
+1448#true#tracker#CNStats#nreguri#*.cnstats.ru/*
+1449#true#ad#Play by Mamba#nreguri#*loveadvert.ru/*
+1450#true#ad#uTarget#nreguri#*utarget.ru/jsclck*
+1451#true#ad#Rollad#nreguri#*.rollad.ru/*
+1452#true#ad#SmartBN#nreguri#*.smartbn.ru/*
+1453#true#ad#Underclick#nreguri#*.underclick.ru/*
+1454#true#ad#Pornvertising#regexhost#(\.trafficfactory\.biz|adsbookie\.com|\.advivi\.com|\.dothads\.com|\.promoserv\.com|\.zeusclciks\.com|\.yazcash\.com)
+1455#true#ad#Ad.agio#nreghost#*.adagionet.com
+1456#true#analytics#ViviStats#nreghost#*.vivistats.com
+1457#true#ad#Adnet Media#regexuri#\.(adnet|adclick)\.lt\/
+1458#true#ad#smartAD#nreguri#*.bepolite.eu/*
+1459#true#tracker#HIT.UA#nreguri#*.hit.ua/*
+1460#true#tracker#Mytop Counter#nreghost#*.mystat-in.net
+1461#true#ad#Tyroo Direct#regexhost#(\.tyroodr\.com|\.tyroodirect\.com)
+1462#true#tracker#Impact Radius#regexhost#\.(r7ls|7eer|ojrq|evyy)\.net
+1463#true#tracker#Impact Radius#regexhost#(\.impactradius\.com|d3cxv97fi8q177\.cloudfront\.net)
+1464#true#ad#InSkin Media#regexhost#(inskinad\.com|\.inskinmedia\.com)
+1465#true#ad#Adcito#nreghost#*.adcito.com
+1466#true#ad#PubGears#nreghost#*.pubgears.com
+1467#true#widget#iGoDigital#nreghost#*.igodigital.com
+1468#true#tracker#SecuredVisit#nreghost#*.securedvisit.com
+1469#true#tracker#Eyeota#nreghost#*.eyeota.net
+1470#true#ad#Hiiir#nreghost#*.hiiir.com
+1471#true#ad#Scupio#nreghost#*.scupio.com
+1472#true#ad#BloggerAds#nreghost#*.bloggerads.net
+1473#true#ad#Respond#nreghost#*.respondhq.com
+1474#true#ad#ChineseAN#nreghost#*.chinesean.com
+1475#true#ad#888media#nreghost#*.888media.net
+1476#true#ad#Switch Concepts#regexhost#(\.abccampaignaudit\.co\.uk|\.adlive\.ie|\.ads-creativesyndicator\.com|\.ads-littlestarmedia\.co\.uk|\.adseekmedia\.com|\.adstheaa\.com|\.bluefinmediaads\.com|\.ctasnet\.com|\.ctpsnet\.com|\.enigmaadserver\.com|\.heavyhearted\.com)
+1477#true#ad#Switch Concepts#regexhost#(\.somastackads\.com|\.switchadhub\.com|adserver\.manutd\.com|ad\.newsnow\.net|\.ptdserver\.com|\.sc\.qsoft\.co\.uk|\.serve\.m80marketing\.com|\.simplytechnology\.net|ads\.solvedigital\.net|\.switchafrica\.com|\.switchads\.com)
+1478#true#ad#Switch Concepts#regexhost#(\.switchads\.com|\.w00tads\.com|\.zetabbs\.com|\.ads\.racingpost\.com|\.delivery\.racingpost\.com|\.racingpostads\.com|\.emergedigital\.com|\.xapads\.com|\.sradserver\.com|\.razoradserver\.com)
+1479#true#ad#AdConductor#nreghost#*.addesktop.com
+1480#true#tracker#IPLogger#nreguri#*iplogger.ru/*
+1481#true#analytics#Jirafe#nreghost#*.jirafe.com
+1482#true#ad#Digital Impact#nreguri#*.dimpact.co.il/*
+1483#true#ad#Dynamic Yield#nreghost#*.dynamicyield.com
+1484#true#ad#AdLand#nreghost#*.adland.co.il
+1485#true#tracker#Telemetry#regexhost#(\.tlm100\.net|\.telemetryverification\.net|\.telemetryaudit\.com|\.telemetrytaxonomy\.net)
+1486#true#tracker#Loggly#nreghost#*.loggly.com
+1487#true#ad#Klikki#nreghost#*.klikki.com
+1488#true#tracker#Inpref#nreghost#*inpref.com
+1489#true#tracker#Inpref#nreghost#*inpref.s3
+1490#true#ad#Adtoma#regexhost#(\.adtoma\.com|\.adtomafusion\.com)
+1491#true#ad#ADPLUS#nreguri#*.adplus.co.id/*
+1492#true#ad#Adstars#nreguri#*.adstars.co.id/*
+1493#true#analytics#Truehits.net#regexuri#(\.truehits\.in\.th\/|addoer\.com)
+1494#true#analytics#Truehits.net#regexhost#(poll|banner)\.truehits\.net
+1495#true#ad#Synergy-E#nreghost#*.synergy-e.com
+1496#true#ad#COADVERTISE#nreguri#*.acc-hd.de/*
+1497#true#ad#Adnet (MedyaNet)#nreghost#*.adnet.com.tr
+1498#true#ad#Adklik#nreguri#*.adklik.com.tr/*
+1499#true#ad#Nanigans#nreghost#*.nanigans.com
+1500#true#tracker#Improvely#nreghost#*.iljmp.com
+1501#true#ad#RealVu#nreghost#*go.realvu.net
+1502#true#ad#Zenovia#nreghost#*.zenoviaexchange.com
+1503#true#ad#4w Marketplace#nreghost#*.4wnet.com
+1504#true#tracker#ad:C media#nreghost#*.adc-serv.net
+1505#true#ad#ShareThrough#regexuri#(\.shareth\.ru\/|apis\.sharethrough\.com)
+1506#true#widget#AOL Streampad#nreghost#*.streampad.com
+1507#true#ad#Esendra#nreguri#*.esendra.fi/*
+1508#true#ad#Facebook Exchange (FBX)#nreguri#*.facebook.com/fr/u.php*
+1509#true#ad#TFM Media#nreghost#*ads.tfmmedia.biz
+1510#true#widget#Skylines#nreguri#*widget.skylines.io/*
+1511#true#tracker#Quick-counter.net#nreghost#*.quick-counter.net
+1512#true#widget#Contextly#nreghost#*api.contextly.com
+1513#true#widget#Adobe Tag Container#nreghost#*.adobetag.com
+1514#true#ad#AffiliateFuture#nreghost#*.affiliatefuture.com
+1515#true#tracker#CPA Detective#nreghost#*.securepaths.com
+1516#true#widget#Survey Interactive#nreghost#*.eu-survey.com
+1517#true#tracker#Linkpulse#nreguri#*.lp4.io/*
+1518#true#ad#Scandinavian Ad Networks#nreghost#*ads.eniro.com
+1519#true#ad#Affiliator#nreghost#*.affiliator.com
+1520#true#analytics#Innometrics#nreghost#*.swordfishdc.com
+1521#true#ad#ity.im#nreguri#*ity.im/ad*
+1522#true#ad#Wamcash#nreghost#*.wamcash.com
+1523#true#ad#Aztecash#nreghost#*.aztecash.com
+1524#true#ad#Flag Ads#nreghost#*.flagads.net
+1525#true#widget#Kaltura#nreghost#*.kaltura.com
+1526#true#ad#eZanga Advertising#nreghost#*adserving.ezanga.com
+1527#true#analytics#QCRI Analytics#nreghost#*track.qcri.org
+1528#true#widget#BuzzFeed#nreghost#*pglb.buzzfed.com
+1529#true#widget#BuzzFeed#regexhost#(buzzbox|ct)\.buzzfeed\.com
+1530#true#ad#Promodity#regexhost#(promodity\.appspot\.com|\.promodity\.com)
+1531#true#ad#The DECK#nreghost#*connect.decknetwork.net
+1532#true#widget#Tradera Widget#nreguri#*kampanj.tradera.com/widget*
+1533#true#ad#Adrecord#nreghost#*.adrecord.com
+1534#true#ad#Buzzador#nreghost#*.buzzador.com
+1535#true#ad#Perfect Audience#nreghost#*.perfectaudience.com
+1536#true#tracker#StatHat#nreghost#*.stathat.com
+1537#true#ad#DirectREV#regexhost#(cdn|ggo)\.directrev\.com
+1538#true#analytics#Lucky Orange#regexhost#(\.luckyorange\.com|\.livestatserver\.com)
+1539#true#tracker#SAS#nreghost#*.aimatch.com
+1540#true#widget#SiteHeart#nreghost#*siteheart.com
+1541#true#tracker#nonstop Consulting#nreghost#*.trkme.net
+1542#true#ad#Buddy Media#nreghost#*.brighteroption.com
+1543#true#ad#Buddy Media#nreghost#*conversion.buddymedia.com
+1544#true#tracker#Post Affiliate Pro#nreghost#*.postaffiliatepro.com
+1545#true#tracker#4stats#nreguri#*4stats.de/*
+1546#true#ad#adNET.de#nreguri#*.adnet.de/*
+1547#true#ad#Usemax#nreguri#*.usemax.de/*
+1548#true#ad#LiveAds#nreguri#*liveads.no/*
+1549#true#analytics#Monitis#nreghost#*track.monitis.com
+1550#true#widget#FeedCat#nreghost#*.feedcat.net
+1551#true#widget#Hacker News Button#nreghost#*hnbutton.appspot.com
+1552#true#ad#Enreach#nreghost#*.adtlgc.com
+1553#true#widget#Livefyre#nreghost#*livefyre.com
+1554#true#widget#Shareaholic#regexuri#dtym7iokkjlif\.cloudfront\.net\/(dough\/1\.0\/recipe\.js|media\/js\/)
+1555#true#widget#Shareaholic#nreguri#*cdn.shareaholic.com/media/js/*
+1556#true#tracker#ClickProtector#nreghost#*.clickprotector.com
+1557#true#tracker#Century Interactive#nreghost#*.callmeasurement.com
+1558#true#analytics#LeadLife#nreghost#*analytics.leadlifesolutions.net
+1559#true#ad#Gamned#regexhost#(\.gamned\.com|\.adbutter\.net)
+1560#true#ad#Advertlets#nreghost#*.advertlets.com
+1561#true#ad#YesUp Advertising#regexhost#(\.xtargeting\.com|\.infinityads\.com|\.adsrevenue\.net|\.momentsharing\.com|\.multipops\.com|\.onlineadultadvertising\.com|\.paypopup\.com|\.popupxxx\.com|\.xxxwebtraffic\.com)
+1562#true#tracker#RBC Counter#nreghost#*count.rbc.ru
+1563#true#tracker#Magnify Stats#nreghost#*st.magnify.net
+1564#true#tracker#Webstat.se#nreguri#*.webstat.se/*
+1565#true#tracker#Web.STAT#nreguri#*webstat.net/cgi-bin*
+1566#true#ad#AdFalcon#nreghost#*.adfalcon.com
+1567#true#tracker#Blog Rating Tracker#regexuri#(\.feedmeter\.net|\.bloggurat\.net|blogglisten\.no\/|\.chart\.dk\/|\.nope\.dk\/|\.statcount\.com|\.stealth\.nl\/|\.bobum\.nl\/|cnt\.tyxo\.bg|counter\.search\.bg)
+1568#true#tracker#Blog Rating Tracker#regexuri#susnet\.(nu|se)\/
+1569#true#tracker#Blog Rating Tracker#regexhost#(hits\.informer\.com|174\.37\.54\.170|fc\.webmasterpro\.de|\.ziyu\.net)
+1570#true#analytics#Tealeaf#regexhost#(tealeafcfg\.js|tealeaf\.js)
+1571#true#ad#ClixSense#nreghost#*.clixsense.com
+1572#true#ad#CrowdGather#nreghost#*.adisn.com
+1573#true#analytics#MineWhat#nreghost#*.minewhat.com
+1574#true#ad#M4N#nreguri#*.m4n.nl/*
+1575#true#ad#Daisycon#nreguri#*.ds1.nl/*
+1576#true#ad#Affiliate4You#nreguri#*.affiliate4you.nl/*
+1577#true#ad#Where#nreghost#*.where.com
+1578#true#ad#BOL Affiliate Program#nreghost#*tracking.bol.com
+1579#true#ad#A8#nreghost#*.a8.net
+1580#true#ad#ValueCommerce#nreghost#*.valuecommerce.com
+1581#true#ad#CheckMyStats#nreghost#*checkmystats.com.au
+1582#true#tracker#dgm#regexhost#(\.dgm-au\.com|\.s2d6\.com)
+1583#true#widget#Comm100#regexuri#\.comm100\.(com|cn)\/
+1584#true#widget#ChatWing#nreghost#*chatwing.com
+1585#true#ad#RedTram#regexuri#(\.grt01\.com|js\.goods\.redtram\.com\/ticker_|\.redtram\.com\/n4p\/)
+1586#true#ad#Mobify#nreghost#*.mobify.com
+1587#true#ad#Greystripe#nreghost#*.greystripe.com
+1588#true#ad#Moat#nreghost#*.moatads.com
+1589#true#tracker#Email Attitude#nreghost#*tag.email-attitude.com
+1590#true#tracker#Email Attitude#regexuri#mmtro\.com\/(tro\.js|p)
+1591#true#ad#Net Communities#regexhost#(ads|ad)\.netcommunities\.com
+1592#true#ad#Smart Device Media#nreghost#*.smartdevicemedia.com
+1593#true#widget#Qualaroo#nreghost#*d3s7ggfq1s6jlj.cloudfront.net
+1594#true#tracker#Rating@Mail.Ru#nreguri#*.list.ru/counter*
+1595#true#ad#Lexity#nreghost#*np.lexity.com
+1596#true#widget#Needle#nreguri#*.needle.com/needle_service.js*
+1597#true#analytics#MegaIndex#nreghost#*counter.megaindex.ru
+1598#true#tracker#Google JSAPI Stats Collection#nreguri#*www.google.com/uds/stats*
+1599#true#tracker#Bounce Exchange#nreguri#*bounceexchange.com/bounce*
+1600#true#analytics#Anametrix#regexuri#(\/anametrix\.js|\.anametrix\.net)
+1601#true#ad#AdDynamics#nreguri#*.addynamics.eu/*
+1602#true#ad#adGENIE#nreguri#*.adgenie.co.uk/*
+1603#true#ad#Affectv#nreguri#*go.affec.tv/*
+1604#true#ad#Audience2Media#nreghost#*ads.audience2media.com
+1605#true#ad#Digitize#nreghost#*.dtzads.com
+1606#true#ad#Metrigo#nreghost#*.metrigo.com
+1607#true#ad#Mark & Mini#nreghost#*.markandmini.com
+1608#true#ad#Advanse#nreghost#*.advansenow.com
+1609#true#analytics#LinkSmart#regexhost#(\.erovinmo\.com|\.linksmart\.com)
+1610#true#ad#Allure Media#nreguri#*.alluremedia.com.au/*
+1611#true#ad#Jumptap#nreghost#*.jumptap.com
+1612#true#widget#Generic Social Sharing Widgets#regexuri#(\.fbshare\.me\/|\.go2web20\.net)
+1613#true#ad#Nexage#nreghost#*.nexage.com
+1614#true#ad#Big Mobile#nreghost#*bigmobileads.com
+1615#true#tracker#Tynt#nreghost#*.tynt.com
+1616#true#widget#Flux#nreghost#*.flux.com
+1617#true#widget#Mass Relevance#regexhost#(\.massrelevance\.com|tweetriver\.com)
+1618#true#ad#MLN Advertising#nreghost#*.mlnadvertising.com
+1619#true#tracker#Razorfish#nreghost#*tracking.rfsoao.com
+1620#true#ad#LinkedIn Ads#nreguri#*.linkedin.com/csp/*
+1621#true#privacy#LinkedIn Notice#nreguri#*.licdn.com/scds/common/u/img/icon/icon_adchoices_ac_77x15.png*
+1622#true#analytics#LongTail Video Analytics#nreghost#*i.n.jwpltx.com
+1623#true#ad#Between Digital#nreghost#*.betweendigital.com
+1624#true#widget#Qrius#nreguri#*.qrius.me/*
+1625#true#ad#Castle Ridge Media#nreghost#*.castleridgemedia.com
+1626#true#analytics#Jet Interactive#nreghost#*.phone-analytics.com
+1627#true#ad#boo-box#nreghost#*.boo-box.com
+1628#true#tracker#ividence#regexhost#(email-reflex\.com|\.ivimedia\.net)
+1629#true#widget#Surf by Surfingbird#nreguri#*surfingbird.ru/share/share*
+1630#true#ad#elicit#nreghost#*.elicitapp.com
+1631#true#tracker#IdeoClick#nreghost#*ideoclick.com
+1632#true#widget#nanoRep#nreghost#*.nanorep.com
+1633#true#analytics#trendcounter#nreghost#*.tcimg.com
+1634#true#ad#R66T Advertising#nreghost#*nodes.r66t.com
+1635#true#analytics#GrepData#regexhost#(\.grepdata\.com|d1lm7kd3bd3yo9\.cloudfront\.net)
+1636#true#tracker#Muscula#nreghost#*musculahq.appspot.com
+1637#true#widget#Satellite Tag Manager#nreguri#*s3.amazonaws.com/searchdiscovery-satellite-production*
+1638#true#ad#Mail.Ru Banner Network#nreguri#*ad.mail.ru/*
+1639#true#ad#Sidecar#regexhost#(d3v27wwd40f0xu\.cloudfront\.net|\.getsidecar\.com)
+1640#true#ad#Kontextua#nreghost#*.kontextua.com
+1641#true#ad#Linkstorm#nreghost#*.linkstorm.net
+1642#true#analytics#InferClick#nreghost#*.inferclick.com
+1643#true#widget#Janrain#nreghost#*.rpxnow.com
+1644#true#tracker#Accordant Media#nreghost#*.accmgr.com
+1645#true#ad#ADZ#nreghost#*.adzhub.com
+1646#true#ad#Aerify Media#nreghost#*.amxdt.com
+1647#true#ad#EQ Advertising#nreghost#*.eqads.com
+1648#true#ad#Eyeview#nreghost#*.eyeviewads.com
+1649#true#tracker#Bronto#nreghost#*.bm23.com
+1650#true#analytics#Radware#nreghost#*.strangeloopnetworks.com
+1651#true#ad#Pulpo Media#nreghost#*.tentaculos.net
+1652#true#ad#GrandSlamMedia#regexhost#(trw12\.com|tuberewards\.com)
+1653#true#ad#Audience Amplify#nreghost#*ads.audienceamplify.com
+1654#true#ad#Twitter Advertising#nreghost#*analytics.twitter.com
+1655#true#widget#ShopRunner#nreghost#*.shoprunner.com
+1656#true#widget#SearchBroker#nreguri#*.colbenson.es/*
+1657#true#analytics#Onestop Analytics#nreghost#*.onestop-analytics.com
+1658#true#ad#ModalLogix#nreghost#*.modallogix.net
+1659#true#tracker#Pingdom#nreghost#*.pingdom.net
+1660#true#ad#AdEffective#regexhost#(\.adsrpt\.com|\.footar\.com)
+1661#true#ad#Nativo#nreghost#*.postrelease.com
+1662#true#ad#Blastro Networks#regexuri#(\.blastro\.com\/images\/ads|\.music-tags\.com)
+1663#true#ad#SundaySky#nreghost#*vop.sundaysky.com
+1664#true#analytics#Qualtrics#nreghost#*.qualtrics.com
+1665#true#widget#Hatena#nreguri#*.st-hatena.com/js/bookmark_button*
+1666#true#analytics#Extole#nreguri#*.extole.com/track*
+1667#true#widget#Monster Advertising#nreghost#*jdn.monster.com
+1668#true#ad#RCS MediaGroup#nreguri#*.rcs.it/*
+1669#true#privacy#Cookie Reports#nreghost#*.cookiereports.com
+1670#true#widget#Boldchat#nreghost#*.boldchat.com
+1671#true#widget#UserEcho#nreghost#*.userecho.com
+1672#true#widget#Trove#nreghost#*.troveread.com
+1673#true#tracker#Segmint#nreghost#*.segmint.net
+1674#true#tracker#Beanstock Media#nreguri#*.beanstock.co/*
+1675#true#widget#Superfish#nreguri#*.superfish.com/apiserver*
+1676#true#ad#PubSquared#nreghost#*.pubsqrd.com
+1677#true#tracker#Coradiant#nreguri#*/coradiant/*
+1678#true#tracker#Smarter Remarketer#nreghost#*.smarterremarketer.net
+1679#true#ad#DirectAvenue#nreghost#*.directavenue.com
+1680#true#tracker#Ve Interactive#nreghost#*.veinteractive.com
+1681#true#tracker#Digital Window#nreghost#*.dwin1.com
+1682#true#ad#HotKeys#nreghost#*.hotkeys.com
+1683#true#tracker#Intelligent Reach#nreghost#*.ist-track.com
+1684#true#widget#eDigitalResearch#nreguri#*ecustomeropinions.com/survey*
+1685#true#widget#SLI Systems#nreghost#*.resultspage.com
+1686#true#ad#Unknown Advertisers#regexhost#(\.adexprt\.com|\.adexprts\.com|\.adshostnet\.com)
+1687#true#widget#Locayta#nreghost#*.locayta.com
+1688#true#tracker#WIPmania#nreghost#*api.wipmania.com
+1689#true#widget#Liveclicker#nreghost#*.liveclicker.net
+1690#true#widget#Confirmit#nreghost#*.confirmit.com
+1691#true#tracker#PayPal Shopping#nreghost#*offers.paypal.com
+1692#true#ad#Avail#nreghost#*.avail.net
+1693#true#ad#Onefeed#nreghost#*tracking.onefeed.co.uk
+1694#true#ad#HelloSociety#nreghost#*hellosociety.com
+1695#true#analytics#MotionPoint#nreghost#*analytics.convertlanguage.com
+1696#true#ad#Solve Media#nreghost#*pixel.solvemedia.com
+1697#true#widget#SiteApps#regexhost#(a|ae)\.siteapps\.com
+1698#true#ad#Captify#nreghost#*.captifymedia.com
+1699#true#ad#Flite#nreghost#*.flite.com
+1700#true#ad#RightAction#nreghost#*.rightaction.com
+1701#true#widget#Coroflot Job Feed#nreghost#*jobfeeds.coroflot.com
+1702#true#ad#Epom#regexhost#(adshost2\.com|\.epom\.com)
+1703#true#ad#YieldSquare#nreghost#*.yieldsquare.com
+1704#true#ad#Spider.Ad#nreguri#*.spider.ad/*
+1705#true#ad#Baidu Ads#regexhost#(cpro|cbjs|hm)\.baidu\.com
+1706#true#ad#Baidu Ads#nreguri#*.baidustatic.com/cpro/ui/*
+1707#true#widget#Weibo Widget#nreghost#*widget.weibo.com
+1708#true#ad#Sociable Labs#nreghost#*.sociablelabs.com
+1709#true#ad#TripleLift#regexhost#(d3iwjrnl4m67rd\.cloudfront\.net|\.triplelift\.com|\.3lift\.com)
+1710#true#analytics#AgilOne#nreghost#*.agilone.com
+1711#true#ad#EasyAds#nreguri#*.easyads.bg/*
+1712#true#ad#Active Performance#regexhost#(\.active-tracking\.de|\.active-srv02\.de)
+1713#true#widget#Newsmax#nreghost#*.nmcdn.us
+1714#true#privacy#TRUSTe Seal#nreghost#*privacy-policy.truste.com
+1715#true#tracker#Wishabi#regexuri#\.wishabi\.(com|ca)\/track
+1716#true#widget#Freshplum#regexuri#(s3\.amazonaws\.com\/freshplum|freshplum\.com)
+1717#true#widget#8thBridge#nreghost#*.strcst.net
+1718#true#widget#Tag Commander#nreghost#*.tagcommander.com
+1719#true#ad#Tedemis#nreghost#*emailretargeting.com
+1720#true#tracker#ip-label#nreghost#*.ip-label.net
+1721#true#widget#Hop-Cube#nreghost#*apiae.hopscore.com
+1722#true#analytics#Ometria#nreghost#*.ometria.com
+1723#true#widget#Flyertown#nreghost#*api.flyertown.ca
+1724#true#widget#NET-Metrix#nreguri#*.wemfbox.ch/*
+1725#true#widget#Onswipe#nreghost#*.onswipe.com
+1726#true#ad#Mad Ads Media#nreghost#*.madadsmedia.com
+1727#true#ad#Skinected#nreghost#*.skinected.com
+1728#true#ad#Adyoulike#nreghost#*.adyoulike.com
+1729#true#tracker#Ethnio#nreguri#*ethn.io/remotes*
+1730#true#analytics#Umbel#nreghost#*api.umbel.com
+1731#true#widget#Atomz Search#nreghost#*.atomz.com
+1732#true#ad#Ziff Davis#nreghost#*zdbb.net
+1733#true#widget#Aeris Weather#nreghost#*.aerisapi.com
+1734#true#widget#Virtusize#nreghost#*.virtusize.com
+1735#true#ad#AdExtent#nreghost#*.adextent.com
+1736#true#widget#SpeakPipe#nreghost#*.speakpipe.com
+1737#true#widget#Fancy Widget#regexuri#\.thefancy\.com\/(fancyit|widget)\.js
+1738#true#tracker#Blue Cherry Group#nreghost#*.offerpoint.net
+1739#true#widget#Olapic#nreghost#*.photorank.me
+1740#true#analytics#CraftKeys#nreguri#*craftkeys.com/track.js*
+1741#true#widget#Cooliris#nreghost#*lite.piclens.com
+1742#true#analytics#Soasta#regexhost#(\.go-mpulse\.net|\.mpstat\.us)
+1743#true#widget#Emma#nreghost#*.e2ma.net
+1744#true#widget#ChannelIQ Badge#nreghost#*.channeliq.com
+1745#true#widget#Marketvine#regexhost#(\.marketvinepicks\.com|d3qyhjw3i5gtba\.cloudfront\.net)
+1746#true#ad#Brandmovers#nreghost#*.brandmovers.net
+1747#true#widget#eGain#nreghost#*.egain.net
+1748#true#widget#DecisionStep#regexhost#(\.shoptogether\.com|\.shoptog\.com)
+1749#true#analytics#CallRail#nreghost#*.callrail.com
+1750#true#widget#LiveChat#nreghost#*.livechatinc.com
+1751#true#widget#ShopSocially#nreguri#*shopsocially.com/js*
+1752#true#widget#500friends#nreghost#*d3aa0ztdn3oibi.cloudfront.net
+1753#true#ad#SaleSpider Media#nreghost#*.salespidermedia.com
+1754#true#widget#Yotpo#nreghost#*.yotpo.com
+1755#true#ad#BrainSINS#regexhost#(\.brainsins\.com|d2xkqxdy6ewr93\.cloudfront\.net)
+1756#true#widget#Avenseo#nreghost#*.avenseo.com
+1757#true#tracker#NetBooster Group#nreghost#*.bbtrack.net
+1758#true#tracker#Scribit#nreguri#*.scribit.com/vat/mon/vts.js*
+1759#true#widget#UserPulse#nreghost#*user-pulse.appspot.com
+1760#true#widget#UserPulse#regexuri#(userpulse|\.contactusplus)\.com\/toolbar\.js
+1761#true#tracker#BlockMetrics#nreghost#*blockmetrics.com
+1762#true#ad#ClickCertain#regexhost#(clickcertain|remarketstats)\.com
+1763#true#ad#Passionfruit#nreghost#*.passionfruitads.com
+1764#true#tracker#Optimost Campaign#regexhost#(track\.yieldsoftware\.com|oc-track\.autonomycloud\.com)
+1765#true#widget#Skysa#nreghost#*.skysa.com
+1766#true#tracker#TraceView#regexhost#(d2gfdmu30u15x7\.cloudfront\.net|\.tracelytics\.com)
+1767#true#tracker#MyFonts Counter#nreguri#*hello.myfonts.net/count*
+1768#true#widget#Commerce Sciences#nreghost#*.cdn-cs.com
+1769#true#widget#AddShoppers#regexuri#(shop\.pe|\.addshoppers\.com)\/widget
+1770#true#tracker#Sift Science#regexhost#(dtlilztwypawv\.cloudfront\.net|\.siftscience\.com)
+1771#true#widget#FluidSurveys#nreghost#*fluidsurveys.com
+1772#true#widget#Ahalogy#nreghost#*.pingagenow.com
+1773#true#ad#Monetize Me#nreghost#*.monetize-me.com
+1774#true#ad#Tradelab#nreguri#*.tradelab.fr/*
+1775#true#ad#adklip#nreghost#*adklip.com
+1776#true#ad#Media.net#nreghost#*.media.net
+1777#true#ad#Atedra#nreghost#*.atedra.com
+1778#true#ad#Rakuten LinkShare#nreghost#*.trafficgate.net
+1779#true#analytics#AccessAnalyzer#nreghost#*ax.xrea.com
+1780#true#ad#Smaato#nreghost#*.smaato.net
+1781#true#analytics#Heap#regexhost#(d36lvucg9kzous\.cloudfront\.net|heapanalytics\.com)
+1782#true#ad#Rokwell#nreghost#*.adspynet.com
+1783#true#ad#AdProfy#nreghost#*.adframesrc.com
+1784#true#widget#StockTwits#regexuri#stocktwits\.com\/(networkbar|addon\/widget)
+1785#true#ad#otClick#nreghost#*otclick-adv.ru
+1786#true#widget#Chatango#nreghost#*.chatango.com
+1787#true#analytics#SkyGlue#nreghost#*.skyglue.com
+1788#true#widget#eKomi#nreghost#*connect.ekomi.de
+1789#true#tracker#Ai Media Group#nreghost#*.aimediagroup.com
+1790#true#tracker#77Tracking#nreghost#*.77tracking.com
+1791#true#analytics#Sociocast#nreghost#*.scastnet.com
+1792#true#ad#Intent IQ#nreghost#*.intentiq.com
+1793#true#tracker#IP Mappers#nreghost#*.ipinfodb.com
+1794#true#widget#Groove#nreguri#*.groovehq.com/widgets/*
+1795#true#widget#Splurgy#regexhost#(\.splurgi\.com|\.splurgy\.com)
+1796#true#ad#HIRO#nreguri#*.hiro.tv/*
+1797#true#widget#Social Amp#nreghost#*.socialamp.com
+1798#true#ad#LCX Digital#nreghost#*.lcxdigital.com
+1799#true#ad#FLXONE#nreghost#*.flxpxl.com
+1800#true#tracker#Shopping Flux#nreghost#*tracking.shopping-flux.com
+1801#true#tracker#BeezUP#nreghost#*tracker.beezup.com
+1802#true#widget#[24]7#nreghost#*d1af033869koo7.cloudfront.net
+1803#true#analytics#SiteWit#nreghost#*analytics.sitewit.com
+1804#true#tracker#Beanstalk Data#nreghost#*.beanstalkdata.com
+1805#true#widget#OpinionBar#nreghost#*.opinionbar.com
+1806#true#widget#SellPoint#nreghost#*sb.sellpoint.net
+1807#true#tracker#Mogo#nreghost#*.mogointeractive.com
+1808#true#tracker#Vero#regexuri#(getvero\.com\/assets\/m\.js|d3qxef4rp70elm\.cloudfront\.net)
+1809#true#ad#Ad Peeps#nreguri#*/adpeeps.php*
+1810#true#ad#Image Advantage#nreghost#*.worthathousandwords.com
+1811#true#tracker#Exactag#nreghost#*.exactag.com
+1812#true#analytics#webtrack#nreghost#*stat.webtrack.biz
+1813#true#tracker#Zappos#nreghost#*track.zappos.com
+1814#true#ad#adverServe#nreghost#*.adverserve.net
+1815#true#tracker#Customer.io#nreguri#*.customer.io/*
+1816#true#ad#Yodle#nreghost#*.natpal.com
+1817#true#widget#Green Certified Site#nreghost#*.co2stats.com
+1818#true#widget#JivoSite#nreghost#*.jivosite.com
+1819#true#widget#Click and Chat#nreghost#*.clickandchat.com
+1820#true#ad#Adimpact#nreghost#*.adimpact.com
+1821#true#ad#Jivox#nreghost#*.jivox.com
+1822#true#ad#Perfect Market#nreghost#*.perfectmarket.com
+1823#true#ad#Speed Shift Media#nreghost#*.speedshiftmedia.com
+1824#true#ad#Amobee#nreghost#*.amobee.com
+1825#true#ad#Net Avenir#nreghost#*.netavenir.com
+1826#true#tracker#Synacor#nreghost#*.siena1.syn-api.com
+1827#true#ad#ReachJunction#nreghost#*.reachjunction.com
+1828#true#ad#ClickBank#nreghost#*.hop.clickbank.net
+1829#true#ad#Sojern#nreghost#*.sojern.com
+1830#true#tracker#Conversions On Demand#nreghost#*.conversionsondemand.com
+1831#true#ad#ProvenPixel#nreghost#*.provenpixel.com
+1832#true#ad#Marimedia#regexhost#(\.mmadsgadget\.com|\.qadabra\.com)
+1833#true#ad#Propeller Ads#regexhost#(\.propellerads\.com|propellerpops\.com|onclickads\.net)
+1834#true#tracker#Advanced Tracker#nreghost#*advancedtracker.appspot.com
+1835#true#widget#TzeTze#regexuri#\.tzetze\.it\/(tzetze_external\.|banner-tzetze\.png)
+1836#true#tracker#WebSTAT#nreghost#*.webstat.com
+1837#true#analytics#SiteTag#nreguri#*.sitetag.us/*
+1838#true#ad#AdMaxim#nreghost#*.admaxim.com
+1839#true#tracker#ClickReport#regexhost#(\.doogleonduty\.com|\.clickreport\.com)
+1840#true#ad#Broadstreet#nreghost#*.broadstreetads.com
+1841#true#ad#ad2games#nreghost#*ad2games.com
+1842#true#ad#Adsfactor#nreghost#*.adsfactor.net
+1843#true#ad#ExitMonetization#nreguri#*exitmonetization.com/js*
+1844#true#ad#Target Performance#nreghost#*.ad-srv.net
+1845#true#ad#Leitmotiv#nreguri#*.leitmotiv.de/*
+1846#true#privacy#LucidMedia Notice#nreguri#*.lucidmedia.com/images/adchoices*
+1847#true#analytics#Conmio#nreghost#*analytics.conmio.com
+1848#true#ad#mOcean Mobile#nreghost#*ads.mocean.mobi
+1849#true#ad#SuperMedia#nreghost#*impr.superpages.com
+1850#true#ad#Velti#nreguri#*.velti.com/is/dl2/*
+1851#true#analytics#Velti mGage Visualize#regexuri#\.(velti\.com|mdcn\.mobi)\/phx\.
+1852#true#ad#Verve Mobile#regexuri#(go\.vrvm\.com\/t|c\.vrvm\.com\/pass\/vrv\/|adcel\.vrvm\.com\/adtag\.js)
+1853#true#ad#YP#regexuri#(display-img\.g\.atti\.com|c\.ypcdn\.com\/2\/i\/rtd|i1\.ypcdn\.com\/hyperlocal\/)
+1854#true#analytics#Sepyra#nreghost#*.sepyra.com
+1855#true#tracker#Malware#regexhost#\.(jquerys\.org|jquery-framework\.com|jquerye\.com|jqueryc\.com|juquery\.com)
+1856#true#tracker#Malware#regexuri#\/wp-content\/(plugins\/trustjacker|plugins\/click-jacker|themes\/stealthsensei)
+1857#true#ad#Adgile#regexhost#(ad\.antventure\.com|ad\.adgile\.com)
+1858#true#ad#Deli Ads#nreghost#*ads.deliads.com
+1859#true#tracker#Research Now#nreghost#*.researchnow.com
+1860#true#ad#DM2#nreghost#*.d-msquared.com
+1861#true#ad#WingAds#nreghost#*.wingads.com
