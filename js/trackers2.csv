@@ -11,6 +11,8 @@ id#activated#category#name#type#rule
 8T2#true#tracker#Chartbeat#nreghost#ping.chartbeat.net
 9T2#true#tracker#Chartbeat#nreghost#static.chartbeat.*
 10T2#true#tracker#Kameleoon#nreghost#static.kameleoon.com
-10T3#true#tracker#Taxonomy#nreguri#*/services/json/taxonomy/flat.jsonp?*
-
 100T2#true#tracker#TTL India#sync.ttlbd.net
+101T2#true#tracker#Taxonomy#nreguri#*/services/json/taxonomy/flat.jsonp?*
+120T2#true#tracker#Live Intercept#nreghost#*engine.liveintercept.com
+121T2#true#tracker#Live Intercept#nreghost#*static.liveintercept.com
+
