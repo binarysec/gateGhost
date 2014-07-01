@@ -92,7 +92,7 @@ Documentations are available on the gateGhost Wiki @ https://github.com/binaryse
 * **etagSessionHack** : Activate ETag session hack mechanism by removing etag header from responses, default ON (true)
 * **dbError** : Select the method to block tracking requests, **code** will return a 403 HTTP code instead of **close** will immediately close the connection. Default **code**.
 * **log** : Manage log level, you must use an object {} and folow options below
-* **db** : Activate database (trackers) logging, default ON (true)
+  * **db** : Activate database (trackers) logging, default ON (true)
   * **referer** : Activate referer confidence system logging, default ON (true)
   * **cookie** : Activate cookie inspection logging, default ON (true)
 
