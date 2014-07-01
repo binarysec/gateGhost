@@ -1,34 +1,34 @@
-# gateGhost ultimate anti-trackers for networks
-gateGhost is a free anti-trackers proxy solution for whole network. It is based as a plugin on gatejs proxy server.
+# gateGhost, ultimate networks' anti-trackers
+gateGhost is a free anti-trackers proxy solution for your entire network. It relies on gatejs proxy server and work as a plugin.
 
 It is distributed under the GPL v3 licence with a professional support under a private commercial licence (dual licence). 
 
 It was designed to counter industrial and individual spying currently operated and revealed by Edward Snowden case.
 
-gateGhost also clean all the ads on your network that constantly hounding your facts and digital gestures.
+gateGhost also clean all ads from your network which constantly tracks your slightest actions.
 
-The implementation of such technology in business and home networks becomes a necessity.
+Implementation of such technology in business and home networks becomes a necessity.
 
-* Made for fat architectures
-* ~1900 trackers registered in the database with fast search system
+* Made for big architectures
+* ~1900 trackers registered in the database with a fast search system
 * Cookie inspection system with 100+ cookies registered
 * Referer confidence system that removes unwanted referers w/o impacts on usage
 * Add your own trackers & cookie database
 * White list of trackers per category
 * Etag session tracking hack support "tracking without cookie"
 
-As it is open source contributions must follow the Github's workflow (issues, pull requests) 
+As it is open source, contributions must follow Github's workflow (issues, pull requests) 
 
-Please contact us, If you found new sort of trackers, cookies or any other way to by-pass our system !
+Please contact us if you find new sort of trackers, cookies or any other way to by-pass our system !
 
 The professional support is managed by the BinarySEC company. Feel free to contact us info [at] binarysec [dot] com
 
 ## Installation
 
-First you will have to install gatejs on your server. You will find some good examples and howto's on http://github.com/binarysec/gate
+First you have to install gatejs on your server. You will find some good examples and howto's on http://github.com/binarysec/gate
 
-When gatejs is installed and gateGhost downloaded you will have :
-* Add the plugin 
+When gatejs is installed and gateGhost downloaded, you have to :
+* Add the plugin
 * Add **ghost** opcode into your favorite gatejs pipeline
 
 ### Add the plugin
@@ -45,9 +45,9 @@ module.exports = serverConfig;
 ```
 
 ### Add ghost opcode
-Ghost acts as a forward proxy opcode (doesn't work on reverse proxy). 
+Ghost acts as a forward proxy opcode (it doe not work on reverse proxy). 
 
-Below an full example with **ghost** opcode into the pipeline named **pipetest**
+Below a full example with **ghost** opcode into the pipeline named **pipetest**
 ```js
 var serverConfig = function(bs) { return({
 	hostname: "testServer0",
@@ -91,7 +91,7 @@ Documentations are available on the gateGhost Wiki @ https://github.com/binaryse
 * **cookieInspection** : Activate cookie inspection in order to clean unwanted tracking cookies, default ON (true)
 * **etagSessionHack** : Activate ETag session hack mechanism by removing etag header from responses, default ON (true)
 * **dbError** : Select the method to block tracking requests, **code** will return a 403 HTTP code instead of **close** will immediately close the connection. Default **code**.
-* **log** : Manage log level, you must use an object {} and folow options below
+* **log** : Manage log level, you must use an object {} and follow options below
   * **db** : Activate database (trackers) logging, default ON (true)
   * **referer** : Activate referer confidence system logging, default ON (true)
   * **cookie** : Activate cookie inspection logging, default ON (true)
