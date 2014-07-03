@@ -17,4 +17,14 @@ id#activated#category#name#type#rule
 121T2#true#tracker#Live Intercept#nreghost#*static.liveintercept.com
 130T2#true#ad#Teads#nreghost#cdn.teads.tv
 131T2#true#ad#Teads#nreguri#t.teads.tv/track
-
+140T2#true#ad#Horyzon Media#nreguri#ads.horyzon-media.com/call/pubj*
+141T2#true#ad#BStatic#nreghost#aff.bstatic.com
+142T2#true#ad#ViaMichelin#nreghost#download.viamichelin.com
+143T2#true#widget#Achetez Facile#nreguri#widget.achetezfacile.com/widget*
+144T2#true#ad#Le Guide.com#nreghost#*.partner.leguide.com
+145T2#true#tracker#Le Guide.com#nreguri#cimg.leguide.com/*/retargeting*
+146T2#true#ad#Kelkoo#nreghost#ads.kelkoo.com
+147T2#true#ad#Kelkoo#nreghost#adservice.kelkoo.fr
+148T2#true#ad#Snake Leads#nreguri#rlg.snake-leads.com/tracker.png*
+149T2#true#ad#Basilic.io#nreguri#perpetuo-onl.basilic.io/*/beacon.gif*
+150T2#true#tracker#Web Rivage#nreguri#api.optinproject.com/rt/visit/*.gif
