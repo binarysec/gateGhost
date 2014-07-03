@@ -28,3 +28,6 @@ id#activated#category#name#type#rule
 148T2#true#ad#Snake Leads#nreguri#rlg.snake-leads.com/tracker.png*
 149T2#true#ad#Basilic.io#nreguri#perpetuo-onl.basilic.io/*/beacon.gif*
 150T2#true#tracker#Web Rivage#nreguri#api.optinproject.com/rt/visit/*.gif
+151T2#true#ad#Pub Exchange#nreguri#cdn.pubexchange.com/modules/partner/*
+152T2#true#ad#Pub Exchange#nreguri#traffic.pubexchange.com/m/*
+153T2#true#ad#Coull#nreguri#mash.network.coull.com/getaffiliatorjs?*
