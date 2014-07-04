@@ -31,3 +31,4 @@ id#activated#category#name#type#rule
 151T2#true#ad#Pub Exchange#nreguri#cdn.pubexchange.com/modules/partner/*
 152T2#true#ad#Pub Exchange#nreguri#traffic.pubexchange.com/m/*
 153T2#true#ad#Coull#nreguri#mash.network.coull.com/getaffiliatorjs?*
+154T2#true#analytics#ShareAholic#nreguri#analytics.shareaholic.com/*/pageview.gif?*
