@@ -910,7 +910,7 @@ id#activated#category#name#type#rule
 907#true#ad#AMP Platform#nreghost#*.collective-media.net
 908#true#ad#Simpli.fi#nreguri#*.simpli.fi/*
 909#true#widget#Asterpix SearchLight#nreguri#*web.asterpix.com/media/js/*
-910#true#widget#Facebook Connect#nreghost#*connect.facebook.net
+910#false#widget#Facebook Connect#nreghost#*connect.facebook.net
 911#true#ad#Emediate#regexhost#\.emediate\.(dk|se|eu)
 912#true#ad#Reklamport#nreghost#*ad.reklamport.com
 913#true#ad#AdExcite#nreguri#*adexcite.com/ads*
