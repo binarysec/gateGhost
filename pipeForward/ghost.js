@@ -89,6 +89,10 @@ ghost.request = function(pipe, options) {
 		}
 	}
 	
+	/* fix hostname */
+	if(!pipe.request.urlParse.hostname)
+		pipe.request.urlParse.hostname = pipe.request.headers.host;
+	
 	/* process link pattern database */
 	if(searchTrackers == true) {
 		var result = pipe.root.lib.gateGhost.db.searchTrackers(pipe.request.urlParse);
