@@ -33,3 +33,5 @@ id#activated#category#name#type#rule
 153T2#true#ad#Coull#nreguri#mash.network.coull.com/getaffiliatorjs?*
 154T2#true#analytics#ShareAholic#nreguri#analytics.shareaholic.com/*/pageview.gif?*
 155T2#true#analytics#AT Internet#nreguri#log*/hit.xiti?s=*
+156T2#true#errantolo#Errantolo#nreguri#*errantolo.com*
+
