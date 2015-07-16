@@ -25,10 +25,12 @@ var url = require('url');
 
 var gateGhost = function(gjs) { };
 
+gateGhost.version = "1.1";
+
 gateGhost.db = require(__dirname+'/js/db.js');
 
 /* used to instance object as lib */
-gateGhost.getName = function() { return('gateGhost'); }
+gateGhost.getName = function() { return('gateGhost'); };
 
 gateGhost.dbLog = function(pipe, rule) {
 	gateGhost.gjs.lib.core.logger.commonLogger(
@@ -124,7 +126,7 @@ gateGhost.loader = function(gjs) {
 			var f = logger.selectFile(req.msg.site, 'gateGhost-referer');
 			if(f) 
 				f.stream.write(inline+'\n');
-		}
+		};
 		
 		var processCookieLog = function(req) {
 			var dateStr = gjs.lib.core.dateToStr(req.msg.time);
@@ -154,7 +156,7 @@ gateGhost.loader = function(gjs) {
 			var f = logger.selectFile(req.msg.site, 'gateGhost-cookies');
 			if(f) 
 				f.stream.write(inline+'\n');
-		}
+		};
 		
 		logger.typeTab['GhostDbLog'] = processDbLog;
 		logger.typeTab['GhostRefererLog'] = processRefererLog;
@@ -170,6 +172,6 @@ gateGhost.loader = function(gjs) {
 		'forwarding'
 	);
 
-}
+};
 
 module.exports = gateGhost;
