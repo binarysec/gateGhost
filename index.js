@@ -25,7 +25,7 @@ var url = require('url');
 
 var gateGhost = function(gjs) { };
 
-gateGhost.version = "1.1";
+gateGhost.version = "1.2";
 
 gateGhost.db = require(__dirname+'/js/db.js');
 
